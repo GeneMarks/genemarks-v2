@@ -22,7 +22,7 @@
 
 <article
     in:fly={{ y: -20, duration: 200 }}
-    class="transition-transform duration-150 ease-in-out scale-100 active:scale-95">
+    class="transition-transform duration-150 ease-in-out scale-100 lg:active:scale-95">
     <a href="{`/reviews/${review.slug}`}">
         <div
             on:mouseenter="{() => showPreview(true)}"
