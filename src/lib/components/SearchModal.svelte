@@ -87,6 +87,12 @@
 	};
 
 
+	let input;
+	
+	$: if (input) {
+		input.focus();
+	}
+
 	// Lock body scrolling
 	let overflow;
 	let paddingRight;
@@ -122,6 +128,7 @@
 		<div class="z-[115] flex flex-col fixed inset-0 bg-primary-300 rounded-md drop-shadow-2xl md:relative md:inset-auto md:mt-20 md:px-10 md:pt-10 md:max-w-full md:w-[60rem]">
 			<div class="relative">
 				<input
+					bind:this={input}
 					on:input={search}
 					name="search"
 					type="text"
