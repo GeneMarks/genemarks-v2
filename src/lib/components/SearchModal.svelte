@@ -74,7 +74,7 @@
 			if (hits[activeHit]) {
 				const url = hits[activeHit].collectionName === 'reviews'
 				? `/reviews/${hits[activeHit].slug}`
-				: `/articles/${hits[activeHit].slug}`;
+				: `/blog/${hits[activeHit].slug}`;
 
 				goto(url);
 				searchActive.set(false);
@@ -151,7 +151,7 @@
 							on:click={() => searchActive.set(false)}
 							href="{hit.collectionName === 'reviews'
 							? `/reviews/${hit.slug}`
-							: `/articles/${hit.slug}`}"
+							: `/blog/${hit.slug}`}"
 							class:active={i === activeHit}
 							class="flex mx-4 gap-4 p-6 bg-primary-500 rounded-lg transition-colors duration-150 ease-in-out md:mx-0">
 							<img

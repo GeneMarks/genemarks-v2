@@ -50,5 +50,5 @@
     {liked ? 'bg-green-800 text-green-400' : 'bg-primary-300 text-green-500 hover:bg-primary-200'}">
 
     <Icon src="{Heart}" mini class="w-4 h-4" />
-    <span>{likes}</span>
+    <span>{likes ?? '0'}</span>
 </button>
