@@ -2,7 +2,7 @@
     import { Icon, ChevronRight } from 'svelte-hero-icons';
 
     export let href = '/reviews';
-    export let swiper;
+    export let swiper = false;
 </script>
 
 <header
