@@ -4,11 +4,13 @@ import {
     getPocketImageURL,
     shuffle }
 from '$lib/server/utils';
+import dayjs from '$lib/server/day';
 
 export const load = async ({ locals }) => {
 
     const featuredLimit = 5;
-    const rowLimit = 6;
+    const rowLimit      = 6;
+    const articlesLimit = 4;
 
     const getFeaturedReviews = async () => {
         try {
@@ -101,9 +103,43 @@ export const load = async ({ locals }) => {
         }
     };
 
+    const getLatestArticles = async () => {
+        try {
+            const articles = serializeNonPOJOs(
+                await locals.pb.collection('articles').getList(1, articlesLimit, {
+                    filter: 'visibility = "published"',
+                    sort: '-datetime'
+                })
+            );
+
+            const formattedArticles = {
+                ...articles,
+                items: articles.items.map(item => {
+                    const { datetime, body, ...rest } = item;
+
+                    const newDatetime = dayjs.tz(datetime);
+
+                    return {
+                        ...rest,
+                        thumb: getPocketImageURL(item.collectionId, item.id, item.thumb),
+                        datetime: newDatetime.format('MMMM D, YYYY'),
+                        age: newDatetime.fromNow(),
+                        isNew: dayjs().diff(newDatetime, 'day') < 7
+                    };
+                })
+            };
+
+            return formattedArticles;
+        } catch (err) {
+            console.log(err);
+            throw error(err.status, err.message);
+        }
+    };
+
     return {
         featuredReviews: await getFeaturedReviews(),
         latestReviews: await getLatestReviews(),
-        likedReviews: await getLikedReviews()
+        likedReviews: await getLikedReviews(),
+        latestArticles: await getLatestArticles()
     };
 };

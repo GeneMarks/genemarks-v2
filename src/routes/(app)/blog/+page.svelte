@@ -35,9 +35,9 @@
 
     <ArticlesTags {usedTags} {currentTag} />
 
-    <section class="articles grid gap-4 mt-8 sm:gap-0 md:mt-12">
+    <section class="flex flex-col gap-4 mt-8 sm:gap-0 md:mt-12">
         {#each articles as article}
-            <ArticleCard {article} />
+            <ArticleCard class="odd:bg-primary-600" {article} />
         {/each}
     </section>
 

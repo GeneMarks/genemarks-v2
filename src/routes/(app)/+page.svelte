@@ -3,13 +3,16 @@
     import SwiperRow from '$lib/components/SwiperRow.svelte';
     import SwiperFeatured from '$lib/components/SwiperFeatured.svelte'
     import SectionFooter from '$lib/components/SectionFooter.svelte';
+    import ArticleCard from '$lib/components/ArticleCard.svelte';
     import { register } from 'swiper/element/bundle';
 
     export let data;
 
+
     const { items: featuredReviews } = data?.featuredReviews;
-    const { items: latestReviews } = data?.latestReviews;
-    const { items: likedReviews } = data?.likedReviews;
+    const { items: latestReviews }   = data?.latestReviews;
+    const { items: likedReviews }    = data?.likedReviews;
+    const { items: latestArticles }  = data?.latestArticles;
 
     register(); // Register swiper elements
 </script>
@@ -39,13 +42,15 @@
 
 <!-- Blog Articles -->
 <section class="mx-auto max-w-default">
-    <!-- <div class="mx-6">
-        <? snippet('default/default/divider', ['title' => 'Latest Articles', 'url' => page('blog')->url(), 'class' => ' mt-14',]) ?>
+    <div class="mx-6">
+        <SectionHeader href="/blog" class="mt-14">Latest Articles</SectionHeader>
+
         <div class="mt-6 flex flex-col gap-6">
-            <?php foreach($articles as $article): ?>
-            <? snippet('blog/blog/article', ['article' => $article]) ?>
-            <?php endforeach ?>
+            {#each latestArticles as article}
+                <ArticleCard {article} />
+            {/each}
         </div>
-        <? snippet('default/default/view-more', ['url' => page('blog'), 'title' => 'See more articles']) ?>
-    </div> -->
+
+        <SectionFooter href="/blog">See more articles</SectionFooter>
+    </div>
 </section>

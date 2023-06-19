@@ -8,7 +8,8 @@
 
 <article
     in:fly={{ y: -20, duration: 200 }}
-    class="group relative flex flex-col gap-6 p-6 rounded-md sm:flex-row md:hover:bg-primary-300 sm:rounded-none sm:p-10 md:p-12 even:bg-primary-400 odd:bg-primary-600">
+    class="group relative flex flex-col gap-6 p-6 rounded-md bg-primary-400 sm:flex-row md:hover:bg-primary-300 sm:rounded-none sm:p-10 md:p-12
+    {$$props.class}">
     
     <div class="self-center flex-shrink-0 sm:self-auto sm:basis-28 md:basis-32">
         <img
