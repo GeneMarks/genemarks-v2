@@ -14,7 +14,7 @@
     {classNames}
     {swiper ? 'mx-6 lg:mx-0' : ''}">
     <a {href}>
-        <h1 class="relative w-fit text-2xl text-white font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200">
+        <h1 class="relative w-fit text-xl text-white font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200 sm:text-2xl">
             <slot />    
         </h1>
     </a>
