@@ -40,14 +40,6 @@ export const load = async ({ locals, url }) => {
 
     const getArticles = async () => {
         try {
-            const usedTags = serializeNonPOJOs(
-                await locals.pb.collection('articles').getFullList({
-                    fields: 'tag'
-                })
-            );
-
-            const formattedUsedTags = usedTags.map(item => item.tag);
-
             const articles = serializeNonPOJOs(
                 await locals.pb.collection('articles').getList(page, limit, {
                     filter: filter,
@@ -57,7 +49,6 @@ export const load = async ({ locals, url }) => {
 
             const formattedArticles = {
                 ...articles,
-                usedTags: formattedUsedTags,
                 items: articles.items.map(item => {
                     const { datetime, body, ...rest } = item;
 
@@ -80,7 +71,18 @@ export const load = async ({ locals, url }) => {
         }
     };
 
+    const getUsedTags = async () => {
+        const usedTags = serializeNonPOJOs(
+            await locals.pb.collection('articles').getFullList({
+                fields: 'tag'
+            })
+        );
+
+        return usedTags.map(item => item.tag);
+    };
+
     return {
-        articles: getArticles()
+        articles: await getArticles(),
+        usedTags: await getUsedTags()
     };
 };

@@ -12,8 +12,9 @@
         items: articles,
         totalItems: totalArticles,
         page: currentPage,
-        totalPages,
-        usedTags } = data?.articles);
+        totalPages } = data?.articles);
+
+    $: ({ usedTags } = data);
 
     $: currentParams = {
         currentTag: getParam('tag', $page.url)
