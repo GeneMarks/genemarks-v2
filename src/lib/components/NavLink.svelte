@@ -3,9 +3,16 @@
 
     export let href;
     export let title;
+
+
+    $: active = href === '/' && $page.url.pathname === '/'
+        || $page.url.pathname.includes(href) && href !== '/';
 </script>
 
-<a {href} class:active={$page.url.pathname === href} class="hover:text-white">{title}</a>
+<a
+    {href}
+    class:active
+    class="hover:text-white">{title}</a>
 
 <style lang="postcss">
     a.active {
