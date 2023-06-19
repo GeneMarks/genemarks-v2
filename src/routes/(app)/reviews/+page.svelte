@@ -41,7 +41,7 @@
 <div class="mx-6 mt-8 sm:mt-0">
     <ReviewsGenres {currentGenre} />
 
-    <header class="flex gap-4 items-center justify-between mb-6 mt-8 md:mt-12">
+    <div class="flex gap-4 items-center justify-between mb-6 mt-8 md:mt-12">
         {#if currentGenre}
             <div class="flex items-center gap-2">
                 <h1 class="relative text-xl text-white capitalize font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200 sm:text-2xl">
@@ -59,7 +59,7 @@
 
         <ReviewsMobileOptions {currentParams} />
         <ReviewsOptions {currentParams} />
-    </header>
+    </div>
 
     <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 md:gap-4">
         {#each reviews as review}

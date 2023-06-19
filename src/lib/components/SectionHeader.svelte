@@ -9,7 +9,7 @@
     let classNames = '';
 </script>
 
-<header
+<div
     class="flex flex-col gap-2 border-primary-600 md:flex-row
     {classNames}
     {swiper ? 'mx-6 lg:mx-0' : ''}">
@@ -27,4 +27,4 @@
             <Icon src="{ChevronRight}" mini class="w-6 h-6" />
         </a>
     </aside>
-</header>
+</div>
