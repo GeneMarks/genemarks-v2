@@ -1,0 +1,94 @@
+@import './hljs-github-dark.min.css';
+
+.markdown {
+    @apply text-lg leading-relaxed break-words;
+
+    & > * {
+        @apply mt-8;
+    }
+
+    & img {
+        @apply w-full;
+    }
+
+    & > p a {
+        @apply text-white decoration-secondary-200 hover:underline;
+    }
+
+    & strong {
+        @apply font-semibold text-white;
+    }
+
+    & > h2, h3 {
+        @apply mt-16 text-white font-bold;
+
+        & > a {
+            @apply text-secondary-200 transition-colors duration-200 ease-in-out hover:text-secondary-100;
+        }
+    }
+
+    & > h2 {
+        @apply text-2xl;
+    }
+
+    & > h3 {
+        @apply text-xl;
+    }
+
+    & hr {
+        @apply border-primary-300 border-2 my-2;
+    }
+
+    & > blockquote, pre {
+        @apply border-l-4;
+    }
+
+    & > blockquote {
+        @apply p-6 bg-primary-600 border-secondary-200;
+
+        & cite {
+            @apply inline-block mt-2 text-white border-b-4 border-secondary-200 before:content-['\2014'] before:mr-2;
+        }
+    }
+
+    & > pre {
+        @apply border-green-500 overflow-x-auto;
+
+        & > code {
+            @apply bg-primary-600;
+        }
+    }
+
+    & > p code {
+        @apply text-sm bg-primary-300 px-1.5 py-0.5 rounded-md;
+    }
+
+    & > ul, ol {
+        @apply list-inside p-6 bg-primary-300 rounded-xl;
+    }
+
+    & > ul {
+        @apply list-disc;
+    }
+
+    & > ol {
+        @apply list-decimal list-inside;
+    }
+
+    & li:not(:first-child) {
+        @apply mt-3;
+    }
+
+    & ::marker {
+        @apply text-secondary-200;
+    }
+
+}
+
+.markdown--review {
+    
+    & > p:first-child {
+        @apply first-line:font-semibold first-line:text-white first-letter:float-left first-letter:text-6xl first-letter:leading-[0.9] first-letter:pr-3 first-letter:font-black first-letter:text-secondary-200 sm:first-letter:text-8xl sm:first-letter:leading-[0.85] sm:first-letter:pr-4;
+    }
+
+}

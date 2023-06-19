@@ -1,0 +1,17 @@
+export const tags = [
+    'art',
+    'culture',
+    'food',
+    'health',
+    'language',
+    'leisure',
+    'music',
+    'news',
+    'science',
+    'sports',
+    'technology',
+    'tips',
+    'travel',
+    'tutorials',
+    'video games',
+];

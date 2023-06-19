@@ -1,0 +1,32 @@
+.tippy-box {
+    @apply leading-none p-1;
+}
+
+.tippy-box[data-theme~='default'] {
+    @apply text-white bg-primary-600;
+}
+
+.tippy-box[data-theme~='rainbow'] {
+    @apply text-white;
+    background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+    background-size: 1200% 1200%;
+    animation: rainbow 10s ease infinite;
+}
+
+.tippy-box[data-theme~='new'] {
+    color: #622c00;
+    background: #ffdf0c;
+}
+
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 100%
+    }
+    50% {
+        background-position: 100% 0%
+    }
+    100% {
+        background-position: 0% 100%
+    }
+}
