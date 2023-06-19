@@ -134,11 +134,14 @@
 					placeholder="Search"
 					maxlength="40"
 					class="w-full pr-20 p-6 text-lg bg-primary-400 border-b-4 border-secondary-200 md:p-3" />
-				<button
-					on:click={() => searchActive.set(false)}
-					class="block absolute top-1/2 -translate-y-1/2 right-5 p-1.5 rounded-full bg-primary-300 md:hidden">
-					<Icon src="{XMark}" mini class="w-5 h-5" />
-				</button>
+				
+				<div class="block absolute top-1/2 -translate-y-1/2 right-5 md:hidden">
+					<button
+						on:click={() => searchActive.set(false)}
+						class="-mt-1 p-1.5 rounded-full bg-primary-300">
+						<Icon src="{XMark}" mini class="w-5 h-5" />
+					</button>
+				</div>
 			</div>
 
 			<div class="h-full overflow-y-auto scrollbar-thin scrollbar-thumb-primary-200 md:max-h-[70vh]">
