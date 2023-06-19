@@ -18,7 +18,7 @@ export const POST = async ({ locals, request }) => {
         });
     } catch (err) {
         console.log(err);
-        throw error(err.status, err.message);
+        throw error(404);
     }
 
     return json({

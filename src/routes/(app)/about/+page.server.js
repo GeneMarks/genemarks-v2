@@ -16,7 +16,7 @@ export const load = async ({ locals }) => {
             return info;
         } catch (err) {
             console.log(err);
-            throw error(err.status, err.message);
+            throw error(404);
         }
     };
     

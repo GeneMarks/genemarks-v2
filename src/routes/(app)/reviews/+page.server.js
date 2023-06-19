@@ -83,7 +83,7 @@ export const load = async ({ locals, url }) => {
             return formattedReviews;
         } catch (err) {
             console.log(err);
-            throw error(err.status, err.message);
+            throw error(404);
         }
     };
 

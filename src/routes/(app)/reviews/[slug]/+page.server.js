@@ -35,7 +35,7 @@ export const load = async ({ locals, params }) => {
             };
         } catch (err) {
             console.log(err);
-            throw error(err.status, 'Review not found.');
+            throw error(404);
         }
     };
 

@@ -52,7 +52,7 @@ export const load = async ({ locals, params }) => {
             };
         } catch (err) {
             console.log(err);
-            throw error(err.status, 'Season not found.');
+            throw error(404);
         }
     };
 
