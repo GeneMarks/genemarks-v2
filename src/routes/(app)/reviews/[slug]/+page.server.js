@@ -31,7 +31,7 @@ export const load = async ({ locals, params }) => {
                 cover: getPocketImageURL(review.collectionId, review.id, review.cover),
                 logo: getPocketImageURL(review.collectionId, review.id, review.logo),
                 seasons: seasons,
-                hasNewSeason: seasons.some(item => dayjs().diff(dayjs.tz(item.datetime), 'day') < 7)
+                hasNewSeason: seasons?.some(item => dayjs().diff(dayjs.tz(item.datetime), 'day') < 7)
             };
         } catch (err) {
             console.log(err);

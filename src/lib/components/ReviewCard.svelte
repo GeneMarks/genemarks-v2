@@ -43,7 +43,7 @@
                 {review.title}
             </a>
         </h2>
-        <aside class="flex items-center justify-between gap-4 flex-wrap mt-1.5 leading-none md:mt-2">
+        <aside class="flex items-start justify-between gap-4 flex-wrap mt-1 leading-none md:mt-2">
             <div class="flex text-sm divide-x divide-primary-200">
                 <span class="pr-2 font-bold">{review.release_year}</span>
                 <span class="pl-2">{review.type === 'movie' ? 'Movie' : 'TV'}</span>
