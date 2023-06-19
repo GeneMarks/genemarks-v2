@@ -10,7 +10,6 @@
 
     $: ({
         items: articles,
-        totalItems: totalArticles,
         page: currentPage,
         totalPages } = data?.articles);
 
@@ -23,19 +22,14 @@
     $: ({ currentTag } = currentParams);
 </script>
 
-<div class="mx-6 mt-8">
-    <header class="flex flex-col gap-4 mb-6 md:flex-row md:items-center md:justify-between">
-        <h1 class="relative w-fit text-xl text-white capitalize font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200 sm:text-2xl">
-            {currentTag ?? 'All Posts'}
-        </h1>
-        <span class="text-sm rounded-md border-primary-200 md:px-2 md:py-1 md:border">
-            Total Posts: {totalArticles}
-        </span>
-    </header>
+<div class="mx-6 mt-8 md:mt-0">
+    <h1 class="relative w-fit mb-6 text-xl text-white capitalize font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200 sm:text-2xl">
+        {currentTag ?? 'All Posts'}
+    </h1>
 
     <ArticlesTags {usedTags} {currentTag} />
 
-    <div class="flex flex-col gap-4 mt-8 sm:gap-0 md:mt-12">
+    <div class="flex flex-col gap-4 mt-8 sm:gap-0">
         {#each articles as article}
             <ArticleCard class="odd:bg-primary-600" {article} />
         {/each}
