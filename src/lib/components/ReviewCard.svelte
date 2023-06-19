@@ -43,14 +43,14 @@
                 {review.title}
             </a>
         </h2>
-        <aside class="flex items-start justify-between gap-4 flex-wrap mt-1 leading-none md:mt-2">
-            <div class="flex text-sm divide-x divide-primary-200">
+        <aside class="flex items-start justify-between gap-4 flex-wrap mt-2">
+            <div class="flex text-sm divide-x divide-primary-200 leading-none">
                 <span class="pr-2 font-bold">{review.release_year}</span>
                 <span class="pl-2">{review.type === 'movie' ? 'Movie' : 'TV'}</span>
             </div>
-            <div class="hidden gap-2 text-xs md:flex">
+            <div class="hidden gap-2 text-xs leading-none xl:flex">
                 {#each review.genres as genre}
-                    <a href="/reviews?genre={genre}" class="px-3 py-1 rounded-full bg-primary-200 hover:bg-primary-200/60">
+                    <a href="/reviews?genre={genre}" class="px-3 py-1.5 rounded-full bg-primary-200 hover:bg-primary-200/60">
                         {genre}
                     </a>
                 {/each}
