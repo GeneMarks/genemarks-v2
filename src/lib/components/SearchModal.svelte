@@ -113,11 +113,10 @@
 	}
 </script>
 
-<svelte:window on:keydown={handleSearchKeys} />
-
 {#if $searchActive}
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div
+		on:keydown={handleSearchKeys}
 		on:click|self={() => searchActive.set(false)}
 		in:fly|local={{ y: -4, duration: 200 }}
 		role="dialog"
