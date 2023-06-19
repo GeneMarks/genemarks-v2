@@ -29,7 +29,7 @@
                     {article.age}
                 </span>
 
-                {#if article.daysOld <= 7}
+                {#if article.isNew}
                     <NewBadge />
                 {/if}
             </div>

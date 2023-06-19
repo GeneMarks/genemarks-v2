@@ -21,11 +21,13 @@
         cover,
         logo,
         likes,
-        seasons } = data?.review);
+        seasons,
+        hasNewSeason } = data?.review);
 
     $: seasonData = {
         seasons,
         parentSlug,
+        hasNewSeason
     };
 
     $: likeData = {

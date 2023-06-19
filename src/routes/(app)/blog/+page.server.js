@@ -68,7 +68,7 @@ export const load = async ({ locals, url }) => {
                         thumb: getPocketImageURL(item.collectionId, item.id, item.thumb),
                         datetime: newDatetime.format('MMMM D, YYYY'),
                         age: newDatetime.fromNow(),
-                        daysOld: dayjs().diff(newDatetime, 'day')
+                        isNew: dayjs().diff(newDatetime, 'day') < 7
                     };
                 })
             };
