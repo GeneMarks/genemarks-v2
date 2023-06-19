@@ -3,11 +3,15 @@
 
     export let href = '/reviews';
     export let swiper = false;
+    export { classNames as class };
+
+
+    let classNames = '';
 </script>
 
 <header
     class="flex flex-col gap-2 border-primary-600 md:flex-row
-    {$$props.class}
+    {classNames}
     {swiper ? 'mx-6 lg:mx-0' : ''}">
     <a {href}>
         <h1 class="relative w-fit text-2xl text-white font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200">

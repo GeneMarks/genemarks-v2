@@ -1,7 +1,7 @@
 <script>
     import { navigating, page } from '$app/stores';
 	import Nav from '$lib/components/Nav.svelte';
-    import NavHeader from '$lib/components/NavHeader.svelte';
+    import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
     import SearchModal from '$lib/components/SearchModal.svelte';
     import ScrollToTop from '$lib/components/ScrollToTop.svelte';
@@ -9,6 +9,7 @@
     import NProgress from 'nprogress';
     import '../styles/app.postcss';
     import '../styles/nprogress.postcss';
+
 
     NProgress.configure({
         minimum: 0.18,
@@ -28,13 +29,14 @@
 
 <header>
     <Nav />
-    <NavHeader />
+    <Header />
 </header>
 
 <main class="mx-auto max-w-default">
     <slot />
-    <Footer />
 </main>
+
+<Footer />
 
 <ScrollToTop />
 <SearchModal />
