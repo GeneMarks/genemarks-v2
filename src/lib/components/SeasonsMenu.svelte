@@ -1,5 +1,4 @@
 <script>
-    import { page } from '$app/stores';
     import {
         Menu,
         MenuButton,
@@ -10,7 +9,13 @@
     import { createFloatingActions } from 'svelte-floating-ui';
     import { fade } from 'svelte/transition';
 
-    export let seasons;
+    export let seasonData;
+
+
+    $: ({
+        seasons,
+        parentSlug,
+        title } = seasonData);
 
 
     const [ floatingRef, floatingContent ] = createFloatingActions({
@@ -29,7 +34,7 @@
         use={[floatingRef]}
         class="px-4 h-9 leading-0 text-sm rounded-md hover:bg-primary-200 sm:h-8 sm:text-xs
         {open ? 'bg-primary-200 outline outline-2 outline-offset-2 outline-primary-300' : 'bg-primary-300'}">
-        View Seasons
+        {title ?? 'View Seasons'}
     </MenuButton>
 
     {#if open}
@@ -38,10 +43,23 @@
                 static
                 use={[floatingContent]}
                 class="flex flex-col w-max min-w-[9rem] p-1.5 leading-none text-sm rounded-lg bg-primary-200 drop-shadow-lg">
+
+                {#if title}
+                    <MenuItem
+                        let:active
+                        href="{`/reviews/${parentSlug}`}">
+                        <div
+                            class:active
+                            class="flex items-center gap-1.5 px-4 h-10 rounded-lg">
+                            Overview
+                        </div>
+                    </MenuItem>
+                {/if}
+
                 {#each seasons as season}
                     <MenuItem
                         let:active
-                        href="{`${$page.url}/${season.slug}`}">
+                        href="{`/reviews/${parentSlug}/${season.slug}`}">
                         <div
                             class:active
                             class="flex items-center gap-1.5 px-4 h-10 rounded-lg">

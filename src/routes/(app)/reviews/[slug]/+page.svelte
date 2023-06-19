@@ -1,7 +1,7 @@
 <script>
     import '../../../../styles/markdown.postcss';
-    import { Icon, ExclamationTriangle } from 'svelte-hero-icons';
     import SeasonsMenu from '$lib/components/SeasonsMenu.svelte';
+    import SpoilersBadge from '$lib/components/SpoilersBadge.svelte';
     import LikeButton from '$lib/components/LikeButton.svelte';
     import CopyToClipboard from '$lib/components/CopyToClipboard.svelte';
 
@@ -10,6 +10,7 @@
     $: ({
         id,
         collectionName,
+        slug: parentSlug,
         title,
         body,
         type,
@@ -21,6 +22,11 @@
         logo,
         likes,
         seasons } = data?.review);
+
+    $: seasonData = {
+        seasons,
+        parentSlug,
+    };
 
     $: likeData = {
         id,
@@ -44,7 +50,7 @@
                 {type === 'movie' ? 'gap-y-3' : 'gap-y-4'}">
                
                 {#if seasons?.length}
-                    <SeasonsMenu {seasons} />
+                    <SeasonsMenu {seasonData} />
                 {:else}
                     <div class="flex gap-2 flex-wrap text-xs">
                         {#each genres as genre}
@@ -65,10 +71,7 @@
     <div class="mx-6">
         <div class="relative max-w-[46rem] mx-auto mt-16 sm:mt-24">
             {#if contains_spoilers}
-                <div class="inline-flex gap-1 items-center px-2.5 py-1.5 bg-red-300 text-red-900 text-xs rounded-full">
-                    <Icon src="{ExclamationTriangle}" mini class="w-4 h-4" />
-                    <span>Contains spoilers</span>
-                </div>
+                <SpoilersBadge />
             {/if}
 
             <div class="markdown markdown--review">
