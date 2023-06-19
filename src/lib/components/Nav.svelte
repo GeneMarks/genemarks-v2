@@ -3,7 +3,7 @@
     import RandomPostButton from '$lib/components/RandomPostButton.svelte';
 </script>
 
-<section class="flex h-12 text-sm text-primary-100 bg-primary-300/60 sm:h-14">
+<div class="flex h-12 text-sm text-primary-100 bg-primary-300/60 sm:h-14">
     <div class="flex gap-6 justify-center items-center w-default max-w-full mx-auto px-6 md:justify-between">
         <div class="flex overflow-x-auto divide-x divide-primary-200">
             <div class="lg:pr-6">
@@ -51,4 +51,4 @@
             </ul>
         </nav>
     </div>
-</section>
+</div>

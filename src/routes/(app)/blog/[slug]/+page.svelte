@@ -62,7 +62,6 @@
             </h1>
         </div>
 
-
         <div class="markdown">
             {@html body}
         </div>

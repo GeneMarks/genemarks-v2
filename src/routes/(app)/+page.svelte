@@ -19,11 +19,11 @@
 
 <!-- Featured Reviews -->
 {#if featuredReviews.length >= 3}
-    <section class="mx-auto max-w-default">
+    <div class="mx-auto max-w-default">
         <div class="md:mx-6">
             <SwiperFeatured reviews={featuredReviews} name="featured-reviews" />
         </div>
-    </section>
+    </div>
 {/if}
 
 <!-- Reviews -->

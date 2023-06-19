@@ -61,7 +61,7 @@
         <ReviewsOptions {currentParams} />
     </header>
 
-    <section class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 md:gap-4">
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 md:gap-4">
         {#each reviews as review}
             <ReviewCard {review} />
         {/each}
@@ -69,7 +69,7 @@
         {#if totalReviews === 0}
             <ReviewsFiller />
         {/if}
-    </section>
+    </div>
 
     <Pagination {totalPages} {currentPage} />
 </div>

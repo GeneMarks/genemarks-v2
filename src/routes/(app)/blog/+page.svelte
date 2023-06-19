@@ -35,11 +35,11 @@
 
     <ArticlesTags {usedTags} {currentTag} />
 
-    <section class="flex flex-col gap-4 mt-8 sm:gap-0 md:mt-12">
+    <div class="flex flex-col gap-4 mt-8 sm:gap-0 md:mt-12">
         {#each articles as article}
             <ArticleCard class="odd:bg-primary-600" {article} />
         {/each}
-    </section>
+    </div>
 
     <Pagination {currentPage} {totalPages} />
 </div>
