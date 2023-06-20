@@ -25,7 +25,6 @@ export const POST = async ({ locals }) => {
             return watched;
         } catch (err) {
             console.log(err);
-            throw error(404);
         }
     }
 

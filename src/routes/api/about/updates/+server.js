@@ -26,7 +26,6 @@ export const GET = async ({ locals, url }) => {
             return formattedUpdates;
         } catch (err) {
             console.log(err);
-            throw error(404);
         }
     }
 
