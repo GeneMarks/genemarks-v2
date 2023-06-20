@@ -1,11 +1,12 @@
 <script>
-    import '../../../../styles/markdown.postcss';
     import SeasonsMenu from '$lib/components/SeasonsMenu.svelte';
     import SpoilersBadge from '$lib/components/SpoilersBadge.svelte';
     import LikeButton from '$lib/components/LikeButton.svelte';
     import CopyToClipboard from '$lib/components/CopyToClipboard.svelte';
+    import '../../../../styles/markdown.postcss';
 
     export let data;
+
 
     $: ({
         id,
@@ -13,6 +14,7 @@
         slug: parentSlug,
         title,
         body,
+        excerpt,
         type,
         director,
         release_year,
@@ -36,6 +38,11 @@
         likes
     };
 </script>
+
+<svelte:head>
+    <title>{title} • Reviews • Gene Marks</title>
+    <meta name="description" content="{excerpt}" />
+</svelte:head>
 
 <article>
     <div class="relative">

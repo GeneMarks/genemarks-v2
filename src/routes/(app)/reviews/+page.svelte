@@ -38,6 +38,11 @@
     }
 </script>
 
+<svelte:head>
+    <title>Reviews • Gene Marks</title>
+    <meta name="description" content="Movie and TV reviews from every genre and time period, written by Gene Marks." />
+</svelte:head>
+
 <div class="mx-6 mt-8 sm:mt-0">
     <ReviewsGenres {currentGenre} />
 

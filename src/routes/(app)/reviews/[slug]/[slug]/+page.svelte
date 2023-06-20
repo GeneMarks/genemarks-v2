@@ -1,9 +1,9 @@
 <script>
-    import '../../../../../styles/markdown.postcss';
     import SeasonsMenu from '$lib/components/SeasonsMenu.svelte';
     import SpoilersBadge from '$lib/components/SpoilersBadge.svelte';
     import LikeButton from '$lib/components/LikeButton.svelte';
     import CopyToClipboard from '$lib/components/CopyToClipboard.svelte';
+    import '../../../../../styles/markdown.postcss';
 
     export let data;
 
@@ -12,6 +12,7 @@
         collectionName,
         title,
         body,
+        excerpt,
         director,
         release_year,
         contains_spoilers,
@@ -19,7 +20,8 @@
         logo,
         likes,
         seasons,
-        parentSlug } = data?.season);
+        parentSlug,
+        parentTitle } = data?.season);
 
     $: seasonData = {
         title,
@@ -33,6 +35,11 @@
         likes
     };
 </script>
+
+<svelte:head>
+    <title>{title} • {parentTitle} • Gene Marks</title>
+    <meta name="description" content="{excerpt}" />
+</svelte:head>
 
 <article>
     <div class="relative">

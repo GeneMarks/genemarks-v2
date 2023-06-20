@@ -24,6 +24,7 @@ export const load = async ({ locals, params }) => {
             const {
                 id: parentId,
                 collectionId: parentCollectionId,
+                title: parentTitle,
                 logo: parentLogo,
                 slug: parentSlug } = expand.parent_review;
 
@@ -47,8 +48,9 @@ export const load = async ({ locals, params }) => {
                 body: await parseMarkDown(season.body),
                 cover: getPocketImageURL(season.collectionId, season.id, season.cover),
                 logo: getPocketImageURL(parentCollectionId, parentId, parentLogo),
-                parentSlug: parentSlug,
-                seasons: seasons
+                parentSlug,
+                parentTitle,
+                seasons
             };
         } catch (err) {
             console.log(err);

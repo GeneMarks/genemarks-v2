@@ -1,7 +1,12 @@
+<svelte:head>
+    <title>Fair Use Disclaimer • Gene Marks</title>
+    <meta name="description" content="This site is for educational purposes only. Gene Marks is a hobbyist, non-profit review site." />
+</svelte:head>
+
 <div class="mx-6 mt-8">
     <h1>Fair Use Act Disclaimer</h1>
 
-    <p>This site is for educational purposes only. GeneMarks is a hobbyist, non-profit review site.</p>
+    <p>This site is for educational purposes only. Gene Marks is a hobbyist, non-profit review site.</p>
 
 
     <h2>Fair Use</h2>

@@ -26,8 +26,8 @@ export const load = async ({ locals, params }) => {
             return {
                 ...rest,
                 body: await parseMarkDown(article.body),
-                thumb: thumb,
-                thumbMeta: thumbMeta,
+                thumb,
+                thumbMeta,
                 datetime: newDatetime.format('MMMM D, YYYY'),
                 age: newDatetime.fromNow(),
                 isNew: dayjs().diff(newDatetime, 'day') < 7

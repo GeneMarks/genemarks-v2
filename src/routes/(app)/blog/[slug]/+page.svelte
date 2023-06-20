@@ -1,9 +1,9 @@
 <script>
-    import '../../../../styles/markdown.postcss';
     import tip from '$lib/tippy';
     import NewBadge from '$lib/components/NewBadge.svelte';
     import LikeButton from '$lib/components/LikeButton.svelte';
     import CopyToClipboard from '$lib/components/CopyToClipboard.svelte';
+    import '../../../../styles/markdown.postcss';
     
     export let data;
 
@@ -16,6 +16,7 @@
         thumb,
         thumbMeta,
         body,
+        excerpt,
         datetime,
         age,
         isNew,
@@ -27,6 +28,11 @@
         likes
     };
 </script>
+
+<svelte:head>
+    <title>{title} • Blog • Gene Marks</title>
+    <meta name="description" content="{excerpt}" />
+</svelte:head>
 
 <div class="mx-6 mt-8">
     <article class="mx-auto max-w-[46rem]">

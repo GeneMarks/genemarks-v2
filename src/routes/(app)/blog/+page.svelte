@@ -22,6 +22,11 @@
     $: ({ currentTag } = currentParams);
 </script>
 
+<svelte:head>
+    <title>Blog • Gene Marks</title>
+    <meta name="description" content="Articles covering a variety of topics like tutorials, technology, and opinions." />
+</svelte:head>
+
 <div class="mx-6 mt-8 md:mt-0">
     <h1 class="relative w-fit mb-6 text-xl text-white capitalize font-semibold before:absolute before:-bottom-1 before:w-full before:h-1 before:bg-secondary-200 sm:text-2xl">
         {currentTag ?? 'All Posts'}

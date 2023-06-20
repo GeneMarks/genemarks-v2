@@ -17,6 +17,11 @@
     register(); // Register swiper elements
 </script>
 
+<svelte:head>
+    <title>Gene Marks • Media Reviews and Blog</title>
+    <meta name="description" content="Movie and TV reviews covering every genre from any time period." />
+</svelte:head>
+
 <!-- Featured Reviews -->
 {#if featuredReviews.length >= 3}
     <div class="mx-auto max-w-default">

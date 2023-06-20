@@ -52,6 +52,11 @@
     }
 </script>
 
+<svelte:head>
+    <title>About • Gene Marks</title>
+    <meta name="description" content="About Gene Marks, admin of genemarks.net" />
+</svelte:head>
+
 <UserCard {data} />
 
 <TabGroup class="mt-6 min-h-full">

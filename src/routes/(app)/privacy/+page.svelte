@@ -1,14 +1,19 @@
+<svelte:head>
+    <title>Privacy Policy • Gene Marks</title>
+    <meta name="description" content="genemarks.net is committed to protecting your privacy." />
+</svelte:head>
+
 <div class="mx-6 mt-8">
     <h1>Privacy Policy</h1>
 
-    <p>genemarks.net (“GeneMarks” “we” or “us”) is committed to protecting your privacy. This Privacy Policy explains the methods and reasons we collect, use, disclose, transfer, and store your information. If you have any questions about the contents of this policy, don’t hesitate to contact us.</p>
+    <p>Genemarks.net (“Gene Marks” “we” or “us”) is committed to protecting your privacy. This Privacy Policy explains the methods and reasons we collect, use, disclose, transfer, and store your information. If you have any questions about the contents of this policy, don’t hesitate to contact us.</p>
 
-    <p>If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use GeneMarks or any services provided on <a href="/">https://genemarks.net</a>.</p>
+    <p>If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use Gene Marks or any services provided on <a href="/">https://genemarks.net</a>.</p>
 
 
     <h2>Applicable Law</h2>
 
-    <p>GeneMarks is headquartered in the United States of America. By viewing any content or otherwise using the services offered by GeneMarks, you consent to the transfer of information to the United States of America to the extent applicable, and the collection, storage, and processing of information under USA law.</p>
+    <p>Gene Marks is headquartered in the United States of America. By viewing any content or otherwise using the services offered by Gene Marks, you consent to the transfer of information to the United States of America to the extent applicable, and the collection, storage, and processing of information under USA law.</p>
 
 
     <h2>Information We Collect</h2>
