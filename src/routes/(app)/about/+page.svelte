@@ -62,8 +62,20 @@
 <TabGroup class="mt-6 min-h-full">
     <div class="flex justify-center">
         <TabList class="flex rounded-md bg-primary-400 md:text-base">
-            <Tab class="{({selected}) => selected ? 'flex items-center px-8 h-10 rounded-l-md text-sm bg-primary-300' : 'flex items-center px-8 h-10 rounded-l-md text-sm hover:text-white'}">Updates</Tab>
-            <Tab on:focus|once={fetchWatchedItems} class="{({selected}) => selected ? 'flex items-center px-8 h-10 rounded-r-md text-sm bg-primary-300' : 'flex items-center px-8 h-10 rounded-r-md text-sm hover:text-white'}">Watching</Tab>
+            <Tab
+                class="{({selected}) => selected
+                ? 'flex items-center px-8 h-10 rounded-l-md text-sm bg-primary-300'
+                : 'flex items-center px-8 h-10 rounded-l-md text-sm hover:text-white'}">
+                Updates
+            </Tab>
+
+            <Tab
+                on:focus|once={fetchWatchedItems}
+                class="{({selected}) => selected
+                ? 'flex items-center px-8 h-10 rounded-r-md text-sm bg-primary-300'
+                : 'flex items-center px-8 h-10 rounded-r-md text-sm hover:text-white'}">
+                Watching
+            </Tab>
         </TabList>
     </div>
     <TabPanels class="mt-10 mx-6 min-h-[50vh]">

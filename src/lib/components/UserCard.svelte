@@ -10,10 +10,16 @@
 <div class="sm:mx-6">
     <div class="p-8 bg-cover bg-center bg-primary-400"
         style={banner
-            ? `background-image: url('${banner}'); box-shadow: inset 0 0 0 2000px rgb(12, 12, 12, .85);`
-            : ''}>
+        ? `background-image: url('${banner}'); box-shadow: inset 0 0 0 2000px rgb(12, 12, 12, .85);`
+        : ''}>
         <div class="flex gap-1 items-center flex-col md:flex-row md:items-start md:gap-5">
-            <img src="{avatar}" alt="gene marks" class="w-32 h-32 rounded-full drop-shadow-sm sm:w-40 sm:h-40" />
+            <img
+                src="{avatar}"
+                alt="gene marks"
+                width="128px"
+                height="128px"
+                class="w-32 h-32 rounded-full drop-shadow-sm sm:w-40 sm:h-40" />
+
             <div class="flex gap-2 items-center flex-col mt-1 md:block md:mt-10">
                 <Username userdata={data?.user} />
 
