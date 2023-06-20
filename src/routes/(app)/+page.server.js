@@ -137,9 +137,9 @@ export const load = async ({ locals }) => {
     };
 
     return {
-        featuredReviews: await getFeaturedReviews(),
-        latestReviews: await getLatestReviews(),
-        likedReviews: await getLikedReviews(),
-        latestArticles: await getLatestArticles()
+        featuredReviews: getFeaturedReviews(),
+        latestReviews: getLatestReviews(),
+        likedReviews: getLikedReviews(),
+        latestArticles: getLatestArticles()
     };
 };

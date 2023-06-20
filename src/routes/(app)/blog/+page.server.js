@@ -82,7 +82,7 @@ export const load = async ({ locals, url }) => {
     };
 
     return {
-        articles: await getArticles(),
-        usedTags: await getUsedTags()
+        articles: getArticles(),
+        usedTags: getUsedTags()
     };
 };
