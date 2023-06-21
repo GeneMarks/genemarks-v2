@@ -14,7 +14,8 @@
         title,
         tag,
         thumb,
-        thumbMeta,
+        thumb_width,
+        thumb_height,
         body,
         excerpt,
         datetime,
@@ -38,9 +39,9 @@
     <article class="mx-auto max-w-[46rem]">
         <img
             src="{thumb}"
-            width="{thumbMeta.width}"
-            height="{thumbMeta.height}"
             alt="{title}"
+            width={thumb_width}
+            height={thumb_height}
             class="mx-auto max-h-80 object-cover" />
 
         <div class="mt-12">

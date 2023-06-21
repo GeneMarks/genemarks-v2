@@ -7,7 +7,8 @@
       "/01_common/abel/02.webp",
       "/01_common/abel/03.webp",
       "/01_common/abel/04.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "adriano",
@@ -17,7 +18,8 @@
       "/01_common/adriano/02.webp",
       "/01_common/adriano/03.webp",
       "/01_common/adriano/04.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "annoyed_zombie_mushroom",
@@ -27,7 +29,8 @@
       "/01_common/annoyed_zombie_mushroom/02.webp",
       "/01_common/annoyed_zombie_mushroom/03.webp",
       "/01_common/annoyed_zombie_mushroom/04.webp"
-    ]
+    ],
+    "width": 64
   },
   {
     "name": "axel",
@@ -37,7 +40,8 @@
       "/01_common/axel/02.webp",
       "/01_common/axel/03.webp",
       "/01_common/axel/04.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "baby_nero",
@@ -47,7 +51,8 @@
       "/01_common/baby_nero/02.webp",
       "/01_common/baby_nero/03.webp",
       "/01_common/baby_nero/04.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "ballet_lyn",
@@ -56,7 +61,8 @@
       "/01_common/ballet_lyn/01.webp",
       "/01_common/ballet_lyn/02.webp",
       "/01_common/ballet_lyn/03.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "bandit",
@@ -65,7 +71,8 @@
       "/01_common/bandit/01.webp",
       "/01_common/bandit/02.webp",
       "/01_common/bandit/03.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "beagle",
@@ -77,7 +84,8 @@
       "/01_common/beagle/04.webp",
       "/01_common/beagle/05.webp",
       "/01_common/beagle/06.webp"
-    ]
+    ],
+    "width": 57
   },
   {
     "name": "beanyaki",
@@ -85,7 +93,8 @@
     "frames": [
       "/01_common/beanyaki/01.webp",
       "/01_common/beanyaki/02.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "bichon",
@@ -95,7 +104,8 @@
       "/01_common/bichon/02.webp",
       "/01_common/bichon/03.webp",
       "/01_common/bichon/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "binx_cat",
@@ -109,7 +119,8 @@
       "/01_common/binx_cat/06.webp",
       "/01_common/binx_cat/07.webp",
       "/01_common/binx_cat/08.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "black_bunny",
@@ -119,7 +130,8 @@
       "/01_common/black_bunny/02.webp",
       "/01_common/black_bunny/03.webp",
       "/01_common/black_bunny/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "black_dragon",
@@ -130,7 +142,8 @@
       "/01_common/black_dragon/03.webp",
       "/01_common/black_dragon/04.webp",
       "/01_common/black_dragon/05.webp"
-    ]
+    ],
+    "width": 66
   },
   {
     "name": "blue_dragon",
@@ -141,7 +154,8 @@
       "/01_common/blue_dragon/03.webp",
       "/01_common/blue_dragon/04.webp",
       "/01_common/blue_dragon/05.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "boston",
@@ -151,7 +165,8 @@
       "/01_common/boston/02.webp",
       "/01_common/boston/03.webp",
       "/01_common/boston/04.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "brown_alpaca",
@@ -165,7 +180,8 @@
       "/01_common/brown_alpaca/06.webp",
       "/01_common/brown_alpaca/07.webp",
       "/01_common/brown_alpaca/08.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "bunny_bun",
@@ -175,7 +191,8 @@
       "/01_common/bunny_bun/02.webp",
       "/01_common/bunny_bun/03.webp",
       "/01_common/bunny_bun/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "burly_piggy",
@@ -189,7 +206,8 @@
       "/01_common/burly_piggy/06.webp",
       "/01_common/burly_piggy/07.webp",
       "/01_common/burly_piggy/08.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "carp_man",
@@ -201,7 +219,8 @@
       "/01_common/carp_man/04.webp",
       "/01_common/carp_man/05.webp",
       "/01_common/carp_man/06.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "cat_evan",
@@ -215,7 +234,8 @@
       "/01_common/cat_evan/06.webp",
       "/01_common/cat_evan/07.webp",
       "/01_common/cat_evan/08.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "cat_luminous",
@@ -229,7 +249,8 @@
       "/01_common/cat_luminous/06.webp",
       "/01_common/cat_luminous/07.webp",
       "/01_common/cat_luminous/08.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "cat_phantom",
@@ -243,7 +264,8 @@
       "/01_common/cat_phantom/06.webp",
       "/01_common/cat_phantom/07.webp",
       "/01_common/cat_phantom/08.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "cheesy_cat",
@@ -253,7 +275,8 @@
       "/01_common/cheesy_cat/02.webp",
       "/01_common/cheesy_cat/03.webp",
       "/01_common/cheesy_cat/04.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "coco_fold",
@@ -263,7 +286,8 @@
       "/01_common/coco_fold/02.webp",
       "/01_common/coco_fold/03.webp",
       "/01_common/coco_fold/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "cold_eye",
@@ -273,7 +297,8 @@
       "/01_common/cold_eye/02.webp",
       "/01_common/cold_eye/03.webp",
       "/01_common/cold_eye/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "corgi_pup",
@@ -282,7 +307,8 @@
       "/01_common/corgi_pup/01.webp",
       "/01_common/corgi_pup/02.webp",
       "/01_common/corgi_pup/03.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "count's_swordsman",
@@ -294,7 +320,8 @@
       "/01_common/count's_swordsman/04.webp",
       "/01_common/count's_swordsman/05.webp",
       "/01_common/count's_swordsman/06.webp"
-    ]
+    ],
+    "width": 75
   },
   {
     "name": "curse_eye",
@@ -304,7 +331,8 @@
       "/01_common/curse_eye/02.webp",
       "/01_common/curse_eye/03.webp",
       "/01_common/curse_eye/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "d._axe_stump",
@@ -318,7 +346,8 @@
       "/01_common/d._axe_stump/06.webp",
       "/01_common/d._axe_stump/07.webp",
       "/01_common/d._axe_stump/08.webp"
-    ]
+    ],
+    "width": 22
   },
   {
     "name": "dark_stump",
@@ -332,7 +361,8 @@
       "/01_common/dark_stump/06.webp",
       "/01_common/dark_stump/07.webp",
       "/01_common/dark_stump/08.webp"
-    ]
+    ],
+    "width": 21
   },
   {
     "name": "drum_bunny",
@@ -342,7 +372,8 @@
       "/01_common/drum_bunny/02.webp",
       "/01_common/drum_bunny/03.webp",
       "/01_common/drum_bunny/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "ducky",
@@ -352,7 +383,8 @@
       "/01_common/ducky/02.webp",
       "/01_common/ducky/03.webp",
       "/01_common/ducky/04.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "dummbo",
@@ -361,7 +393,8 @@
       "/01_common/dummbo/01.webp",
       "/01_common/dummbo/02.webp",
       "/01_common/dummbo/03.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "elephant",
@@ -373,7 +406,8 @@
       "/01_common/elephant/04.webp",
       "/01_common/elephant/05.webp",
       "/01_common/elephant/06.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "evil_eye",
@@ -383,7 +417,8 @@
       "/01_common/evil_eye/02.webp",
       "/01_common/evil_eye/03.webp",
       "/01_common/evil_eye/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "fennec_fox",
@@ -393,7 +428,8 @@
       "/01_common/fennec_fox/02.webp",
       "/01_common/fennec_fox/03.webp",
       "/01_common/fennec_fox/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "fondue_fold",
@@ -403,7 +439,8 @@
       "/01_common/fondue_fold/02.webp",
       "/01_common/fondue_fold/03.webp",
       "/01_common/fondue_fold/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "frog",
@@ -414,7 +451,8 @@
       "/01_common/frog/03.webp",
       "/01_common/frog/04.webp",
       "/01_common/frog/05.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "gala_pengy",
@@ -424,7 +462,8 @@
       "/01_common/gala_pengy/02.webp",
       "/01_common/gala_pengy/03.webp",
       "/01_common/gala_pengy/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "ghost_stump",
@@ -438,7 +477,8 @@
       "/01_common/ghost_stump/06.webp",
       "/01_common/ghost_stump/07.webp",
       "/01_common/ghost_stump/08.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "gorilla_robo",
@@ -449,7 +489,8 @@
       "/01_common/gorilla_robo/03.webp",
       "/01_common/gorilla_robo/04.webp",
       "/01_common/gorilla_robo/05.webp"
-    ]
+    ],
+    "width": 68
   },
   {
     "name": "green_dragon",
@@ -460,7 +501,8 @@
       "/01_common/green_dragon/03.webp",
       "/01_common/green_dragon/04.webp",
       "/01_common/green_dragon/05.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "grumpy_koala",
@@ -470,7 +512,8 @@
       "/01_common/grumpy_koala/02.webp",
       "/01_common/grumpy_koala/03.webp",
       "/01_common/grumpy_koala/04.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "gupi_pet",
@@ -482,7 +525,8 @@
       "/01_common/gupi_pet/04.webp",
       "/01_common/gupi_pet/05.webp",
       "/01_common/gupi_pet/06.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "hard-boiled",
@@ -492,7 +536,8 @@
       "/01_common/hard-boiled/02.webp",
       "/01_common/hard-boiled/03.webp",
       "/01_common/hard-boiled/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "harp_seal",
@@ -503,7 +548,8 @@
       "/01_common/harp_seal/03.webp",
       "/01_common/harp_seal/04.webp",
       "/01_common/harp_seal/05.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "hedgehog",
@@ -512,7 +558,8 @@
       "/01_common/hedgehog/01.webp",
       "/01_common/hedgehog/02.webp",
       "/01_common/hedgehog/03.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "husky",
@@ -521,7 +568,8 @@
       "/01_common/husky/01.webp",
       "/01_common/husky/02.webp",
       "/01_common/husky/03.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "jr._balrog",
@@ -531,7 +579,8 @@
       "/01_common/jr._balrog/02.webp",
       "/01_common/jr._balrog/03.webp",
       "/01_common/jr._balrog/04.webp"
-    ]
+    ],
+    "width": 61
   },
   {
     "name": "kangaroo",
@@ -541,7 +590,8 @@
       "/01_common/kangaroo/02.webp",
       "/01_common/kangaroo/03.webp",
       "/01_common/kangaroo/04.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "kit_cat",
@@ -555,7 +605,8 @@
       "/01_common/kit_cat/06.webp",
       "/01_common/kit_cat/07.webp",
       "/01_common/kit_cat/08.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "latest_hits_compilation",
@@ -569,7 +620,8 @@
       "/01_common/latest_hits_compilation/06.webp",
       "/01_common/latest_hits_compilation/07.webp",
       "/01_common/latest_hits_compilation/08.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "lepi_pet",
@@ -581,7 +633,8 @@
       "/01_common/lepi_pet/04.webp",
       "/01_common/lepi_pet/05.webp",
       "/01_common/lepi_pet/06.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "lil_fort",
@@ -593,7 +646,8 @@
       "/01_common/lil_fort/04.webp",
       "/01_common/lil_fort/05.webp",
       "/01_common/lil_fort/06.webp"
-    ]
+    ],
+    "width": 55
   },
   {
     "name": "lil_lingling",
@@ -605,7 +659,8 @@
       "/01_common/lil_lingling/04.webp",
       "/01_common/lil_lingling/05.webp",
       "/01_common/lil_lingling/06.webp"
-    ]
+    ],
+    "width": 62
   },
   {
     "name": "lil_nenne",
@@ -623,7 +678,8 @@
       "/01_common/lil_nenne/10.webp",
       "/01_common/lil_nenne/11.webp",
       "/01_common/lil_nenne/12.webp"
-    ]
+    ],
+    "width": 55
   },
   {
     "name": "lil_tutu",
@@ -634,7 +690,8 @@
       "/01_common/lil_tutu/03.webp",
       "/01_common/lil_tutu/04.webp",
       "/01_common/lil_tutu/05.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "mini_chicken",
@@ -644,7 +701,8 @@
       "/01_common/mini_chicken/02.webp",
       "/01_common/mini_chicken/03.webp",
       "/01_common/mini_chicken/04.webp"
-    ]
+    ],
+    "width": 24
   },
   {
     "name": "mini_sugar",
@@ -654,7 +712,8 @@
       "/01_common/mini_sugar/02.webp",
       "/01_common/mini_sugar/03.webp",
       "/01_common/mini_sugar/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "mini_yeti",
@@ -664,7 +723,8 @@
       "/01_common/mini_yeti/02.webp",
       "/01_common/mini_yeti/03.webp",
       "/01_common/mini_yeti/04.webp"
-    ]
+    ],
+    "width": 62
   },
   {
     "name": "mouse_monkey",
@@ -676,7 +736,8 @@
       "/01_common/mouse_monkey/04.webp",
       "/01_common/mouse_monkey/05.webp",
       "/01_common/mouse_monkey/06.webp"
-    ]
+    ],
+    "width": 50
   },
   {
     "name": "mr._toad",
@@ -687,7 +748,8 @@
       "/01_common/mr._toad/03.webp",
       "/01_common/mr._toad/04.webp",
       "/01_common/mr._toad/05.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "omelette_pup",
@@ -697,7 +759,8 @@
       "/01_common/omelette_pup/02.webp",
       "/01_common/omelette_pup/03.webp",
       "/01_common/omelette_pup/04.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "orange_tiger",
@@ -706,7 +769,8 @@
       "/01_common/orange_tiger/01.webp",
       "/01_common/orange_tiger/02.webp",
       "/01_common/orange_tiger/03.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "pearly_piggy",
@@ -720,7 +784,8 @@
       "/01_common/pearly_piggy/06.webp",
       "/01_common/pearly_piggy/07.webp",
       "/01_common/pearly_piggy/08.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "pepper_tuna",
@@ -730,7 +795,8 @@
       "/01_common/pepper_tuna/02.webp",
       "/01_common/pepper_tuna/03.webp",
       "/01_common/pepper_tuna/04.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "persian_cat",
@@ -740,7 +806,8 @@
       "/01_common/persian_cat/02.webp",
       "/01_common/persian_cat/03.webp",
       "/01_common/persian_cat/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "pink_bearcat",
@@ -749,7 +816,8 @@
       "/01_common/pink_bearcat/01.webp",
       "/01_common/pink_bearcat/02.webp",
       "/01_common/pink_bearcat/03.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "polar_cub",
@@ -759,7 +827,8 @@
       "/01_common/polar_cub/02.webp",
       "/01_common/polar_cub/03.webp",
       "/01_common/polar_cub/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "porcupine",
@@ -768,7 +837,8 @@
       "/01_common/porcupine/01.webp",
       "/01_common/porcupine/02.webp",
       "/01_common/porcupine/03.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "punch_cat",
@@ -778,7 +848,8 @@
       "/01_common/punch_cat/02.webp",
       "/01_common/punch_cat/03.webp",
       "/01_common/punch_cat/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "red_dragon",
@@ -789,7 +860,8 @@
       "/01_common/red_dragon/03.webp",
       "/01_common/red_dragon/04.webp",
       "/01_common/red_dragon/05.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "retriever",
@@ -799,7 +871,8 @@
       "/01_common/retriever/02.webp",
       "/01_common/retriever/03.webp",
       "/01_common/retriever/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "ribbon_pig",
@@ -808,7 +881,8 @@
       "/01_common/ribbon_pig/01.webp",
       "/01_common/ribbon_pig/02.webp",
       "/01_common/ribbon_pig/03.webp"
-    ]
+    ],
+    "width": 67
   },
   {
     "name": "roasted",
@@ -818,7 +892,8 @@
       "/01_common/roasted/02.webp",
       "/01_common/roasted/03.webp",
       "/01_common/roasted/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "robot",
@@ -828,7 +903,8 @@
       "/01_common/robot/02.webp",
       "/01_common/robot/03.webp",
       "/01_common/robot/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "salem_cat",
@@ -842,7 +918,8 @@
       "/01_common/salem_cat/06.webp",
       "/01_common/salem_cat/07.webp",
       "/01_common/salem_cat/08.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "samoyed",
@@ -852,7 +929,8 @@
       "/01_common/samoyed/02.webp",
       "/01_common/samoyed/03.webp",
       "/01_common/samoyed/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "samson_cat",
@@ -862,7 +940,8 @@
       "/01_common/samson_cat/02.webp",
       "/01_common/samson_cat/03.webp",
       "/01_common/samson_cat/04.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "sasha_fold",
@@ -872,7 +951,8 @@
       "/01_common/sasha_fold/02.webp",
       "/01_common/sasha_fold/03.webp",
       "/01_common/sasha_fold/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "sheepdog",
@@ -882,7 +962,8 @@
       "/01_common/sheepdog/02.webp",
       "/01_common/sheepdog/03.webp",
       "/01_common/sheepdog/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "shibe",
@@ -896,7 +977,8 @@
       "/01_common/shibe/06.webp",
       "/01_common/shibe/07.webp",
       "/01_common/shibe/08.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "shibo",
@@ -910,7 +992,8 @@
       "/01_common/shibo/06.webp",
       "/01_common/shibo/07.webp",
       "/01_common/shibo/08.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "shibu",
@@ -924,7 +1007,8 @@
       "/01_common/shibu/06.webp",
       "/01_common/shibu/07.webp",
       "/01_common/shibu/08.webp"
-    ]
+    ],
+    "width": 30
   },
   {
     "name": "skunk",
@@ -933,7 +1017,8 @@
       "/01_common/skunk/01.webp",
       "/01_common/skunk/02.webp",
       "/01_common/skunk/03.webp"
-    ]
+    ],
+    "width": 61
   },
   {
     "name": "slostman",
@@ -947,7 +1032,8 @@
       "/01_common/slostman/06.webp",
       "/01_common/slostman/07.webp",
       "/01_common/slostman/08.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "snail",
@@ -958,7 +1044,8 @@
       "/01_common/snail/03.webp",
       "/01_common/snail/04.webp",
       "/01_common/snail/05.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "soft-boiled",
@@ -968,7 +1055,8 @@
       "/01_common/soft-boiled/02.webp",
       "/01_common/soft-boiled/03.webp",
       "/01_common/soft-boiled/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "spotty_piggy",
@@ -982,7 +1070,8 @@
       "/01_common/spotty_piggy/06.webp",
       "/01_common/spotty_piggy/07.webp",
       "/01_common/spotty_piggy/08.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "starwing",
@@ -994,7 +1083,8 @@
       "/01_common/starwing/04.webp",
       "/01_common/starwing/05.webp",
       "/01_common/starwing/06.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "stingray_man",
@@ -1006,7 +1096,8 @@
       "/01_common/stingray_man/04.webp",
       "/01_common/stingray_man/05.webp",
       "/01_common/stingray_man/06.webp"
-    ]
+    ],
+    "width": 61
   },
   {
     "name": "stjartmes",
@@ -1016,7 +1107,8 @@
       "/01_common/stjartmes/02.webp",
       "/01_common/stjartmes/03.webp",
       "/01_common/stjartmes/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "sun_wu_kong",
@@ -1026,7 +1118,8 @@
       "/01_common/sun_wu_kong/02.webp",
       "/01_common/sun_wu_kong/03.webp",
       "/01_common/sun_wu_kong/04.webp"
-    ]
+    ],
+    "width": 55
   },
   {
     "name": "toy_trojan",
@@ -1036,7 +1129,8 @@
       "/01_common/toy_trojan/02.webp",
       "/01_common/toy_trojan/03.webp",
       "/01_common/toy_trojan/04.webp"
-    ]
+    ],
+    "width": 39
   },
   {
     "name": "vampire_cat",
@@ -1046,7 +1140,8 @@
       "/01_common/vampire_cat/02.webp",
       "/01_common/vampire_cat/03.webp",
       "/01_common/vampire_cat/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "weenie_dawg",
@@ -1056,7 +1151,8 @@
       "/01_common/weenie_dawg/02.webp",
       "/01_common/weenie_dawg/03.webp",
       "/01_common/weenie_dawg/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "weird_alpaca",
@@ -1070,7 +1166,8 @@
       "/01_common/weird_alpaca/06.webp",
       "/01_common/weird_alpaca/07.webp",
       "/01_common/weird_alpaca/08.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "westie",
@@ -1080,7 +1177,8 @@
       "/01_common/westie/02.webp",
       "/01_common/westie/03.webp",
       "/01_common/westie/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "white_alpaca",
@@ -1094,7 +1192,8 @@
       "/01_common/white_alpaca/06.webp",
       "/01_common/white_alpaca/07.webp",
       "/01_common/white_alpaca/08.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "white_duck",
@@ -1116,7 +1215,8 @@
       "/01_common/white_duck/14.webp",
       "/01_common/white_duck/15.webp",
       "/01_common/white_duck/16.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "white_tiger",
@@ -1125,7 +1225,8 @@
       "/01_common/white_tiger/01.webp",
       "/01_common/white_tiger/02.webp",
       "/01_common/white_tiger/03.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "yodeling_hen",
@@ -1139,7 +1240,8 @@
       "/01_common/yodeling_hen/06.webp",
       "/01_common/yodeling_hen/07.webp",
       "/01_common/yodeling_hen/08.webp"
-    ]
+    ],
+    "width": 55
   },
   {
     "name": "yorkshire",
@@ -1151,7 +1253,8 @@
       "/01_common/yorkshire/04.webp",
       "/01_common/yorkshire/05.webp",
       "/01_common/yorkshire/06.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "a_goddess",
@@ -1161,7 +1264,8 @@
       "/02_rare/a_goddess/02.webp",
       "/02_rare/a_goddess/03.webp",
       "/02_rare/a_goddess/04.webp"
-    ]
+    ],
+    "width": 58
   },
   {
     "name": "alpaca",
@@ -1171,7 +1275,8 @@
       "/02_rare/alpaca/02.webp",
       "/02_rare/alpaca/03.webp",
       "/02_rare/alpaca/04.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "angry_stray_dog",
@@ -1183,7 +1288,8 @@
       "/02_rare/angry_stray_dog/04.webp",
       "/02_rare/angry_stray_dog/05.webp",
       "/02_rare/angry_stray_dog/06.webp"
-    ]
+    ],
+    "width": 91
   },
   {
     "name": "aruru",
@@ -1193,7 +1299,8 @@
       "/02_rare/aruru/02.webp",
       "/02_rare/aruru/03.webp",
       "/02_rare/aruru/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "baby_robo",
@@ -1203,7 +1310,8 @@
       "/02_rare/baby_robo/02.webp",
       "/02_rare/baby_robo/03.webp",
       "/02_rare/baby_robo/04.webp"
-    ]
+    ],
+    "width": 60
   },
   {
     "name": "bawu",
@@ -1213,7 +1321,8 @@
       "/02_rare/bawu/02.webp",
       "/02_rare/bawu/03.webp",
       "/02_rare/bawu/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "blowfish_man",
@@ -1225,7 +1334,8 @@
       "/02_rare/blowfish_man/04.webp",
       "/02_rare/blowfish_man/05.webp",
       "/02_rare/blowfish_man/06.webp"
-    ]
+    ],
+    "width": 55
   },
   {
     "name": "bonkey",
@@ -1236,7 +1346,8 @@
       "/02_rare/bonkey/03.webp",
       "/02_rare/bonkey/04.webp",
       "/02_rare/bonkey/05.webp"
-    ]
+    ],
+    "width": 52
   },
   {
     "name": "bronze_meso",
@@ -1250,7 +1361,8 @@
       "/02_rare/bronze_meso/06.webp",
       "/02_rare/bronze_meso/07.webp",
       "/02_rare/bronze_meso/08.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "cake",
@@ -1264,7 +1376,8 @@
       "/02_rare/cake/06.webp",
       "/02_rare/cake/07.webp",
       "/02_rare/cake/08.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "corrupted_skelegon",
@@ -1274,7 +1387,8 @@
       "/02_rare/corrupted_skelegon/02.webp",
       "/02_rare/corrupted_skelegon/03.webp",
       "/02_rare/corrupted_skelegon/04.webp"
-    ]
+    ],
+    "width": 96
   },
   {
     "name": "cutie_teddy",
@@ -1284,7 +1398,8 @@
       "/02_rare/cutie_teddy/02.webp",
       "/02_rare/cutie_teddy/03.webp",
       "/02_rare/cutie_teddy/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "demon_lux",
@@ -1294,7 +1409,8 @@
       "/02_rare/demon_lux/02.webp",
       "/02_rare/demon_lux/03.webp",
       "/02_rare/demon_lux/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "dodo",
@@ -1304,7 +1420,8 @@
       "/02_rare/dodo/02.webp",
       "/02_rare/dodo/03.webp",
       "/02_rare/dodo/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "esel",
@@ -1316,7 +1433,8 @@
       "/02_rare/esel/04.webp",
       "/02_rare/esel/05.webp",
       "/02_rare/esel/06.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "fluffy_teddy",
@@ -1326,7 +1444,8 @@
       "/02_rare/fluffy_teddy/02.webp",
       "/02_rare/fluffy_teddy/03.webp",
       "/02_rare/fluffy_teddy/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "fried_shrimp",
@@ -1336,7 +1455,8 @@
       "/02_rare/fried_shrimp/02.webp",
       "/02_rare/fried_shrimp/03.webp",
       "/02_rare/fried_shrimp/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "g_goddess",
@@ -1346,7 +1466,8 @@
       "/02_rare/g_goddess/02.webp",
       "/02_rare/g_goddess/03.webp",
       "/02_rare/g_goddess/04.webp"
-    ]
+    ],
+    "width": 59
   },
   {
     "name": "galiel",
@@ -1358,7 +1479,8 @@
       "/02_rare/galiel/04.webp",
       "/02_rare/galiel/05.webp",
       "/02_rare/galiel/06.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "gold_bearcat",
@@ -1367,7 +1489,8 @@
       "/02_rare/gold_bearcat/01.webp",
       "/02_rare/gold_bearcat/02.webp",
       "/02_rare/gold_bearcat/03.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "hongbu",
@@ -1379,7 +1502,8 @@
       "/02_rare/hongbu/04.webp",
       "/02_rare/hongbu/05.webp",
       "/02_rare/hongbu/06.webp"
-    ]
+    ],
+    "width": 71
   },
   {
     "name": "icy_devil",
@@ -1389,7 +1513,8 @@
       "/02_rare/icy_devil/02.webp",
       "/02_rare/icy_devil/03.webp",
       "/02_rare/icy_devil/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "iron_rabbit",
@@ -1399,7 +1524,8 @@
       "/02_rare/iron_rabbit/02.webp",
       "/02_rare/iron_rabbit/03.webp",
       "/02_rare/iron_rabbit/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "lady_hot_tea",
@@ -1413,7 +1539,8 @@
       "/02_rare/lady_hot_tea/06.webp",
       "/02_rare/lady_hot_tea/07.webp",
       "/02_rare/lady_hot_tea/08.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "lil_moonbeam",
@@ -1421,7 +1548,8 @@
     "frames": [
       "/02_rare/lil_moonbeam/01.webp",
       "/02_rare/lil_moonbeam/02.webp"
-    ]
+    ],
+    "width": 48
   },
   {
     "name": "lil_ninja",
@@ -1433,7 +1561,8 @@
       "/02_rare/lil_ninja/04.webp",
       "/02_rare/lil_ninja/05.webp",
       "/02_rare/lil_ninja/06.webp"
-    ]
+    ],
+    "width": 58
   },
   {
     "name": "lil_wave",
@@ -1443,7 +1572,8 @@
       "/02_rare/lil_wave/02.webp",
       "/02_rare/lil_wave/03.webp",
       "/02_rare/lil_wave/04.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "lil_wonky",
@@ -1453,7 +1583,8 @@
       "/02_rare/lil_wonky/02.webp",
       "/02_rare/lil_wonky/03.webp",
       "/02_rare/lil_wonky/04.webp"
-    ]
+    ],
+    "width": 39
   },
   {
     "name": "matcha_man",
@@ -1467,7 +1598,8 @@
       "/02_rare/matcha_man/06.webp",
       "/02_rare/matcha_man/07.webp",
       "/02_rare/matcha_man/08.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "meerkat_mob",
@@ -1477,7 +1609,8 @@
       "/02_rare/meerkat_mob/02.webp",
       "/02_rare/meerkat_mob/03.webp",
       "/02_rare/meerkat_mob/04.webp"
-    ]
+    ],
+    "width": 86
   },
   {
     "name": "miasma_devil",
@@ -1487,7 +1620,8 @@
       "/02_rare/miasma_devil/02.webp",
       "/02_rare/miasma_devil/03.webp",
       "/02_rare/miasma_devil/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "mingu",
@@ -1499,7 +1633,8 @@
       "/02_rare/mingu/04.webp",
       "/02_rare/mingu/05.webp",
       "/02_rare/mingu/06.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "mini_mar",
@@ -1509,7 +1644,8 @@
       "/02_rare/mini_mar/02.webp",
       "/02_rare/mini_mar/03.webp",
       "/02_rare/mini_mar/04.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "mini_queen",
@@ -1519,7 +1655,8 @@
       "/02_rare/mini_queen/02.webp",
       "/02_rare/mini_queen/03.webp",
       "/02_rare/mini_queen/04.webp"
-    ]
+    ],
+    "width": 54
   },
   {
     "name": "pie",
@@ -1537,7 +1674,8 @@
       "/02_rare/pie/10.webp",
       "/02_rare/pie/11.webp",
       "/02_rare/pie/12.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "pierre",
@@ -1547,7 +1685,8 @@
       "/02_rare/pierre/02.webp",
       "/02_rare/pierre/03.webp",
       "/02_rare/pierre/04.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "pink_bean",
@@ -1563,7 +1702,8 @@
       "/02_rare/pink_bean/08.webp",
       "/02_rare/pink_bean/09.webp",
       "/02_rare/pink_bean/10.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "pudgycat",
@@ -1577,7 +1717,8 @@
       "/02_rare/pudgycat/06.webp",
       "/02_rare/pudgycat/07.webp",
       "/02_rare/pudgycat/08.webp"
-    ]
+    ],
+    "width": 69
   },
   {
     "name": "puffy_teddy",
@@ -1587,7 +1728,8 @@
       "/02_rare/puffy_teddy/02.webp",
       "/02_rare/puffy_teddy/03.webp",
       "/02_rare/puffy_teddy/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "roo-a",
@@ -1602,7 +1744,8 @@
       "/02_rare/roo-a/07.webp",
       "/02_rare/roo-a/08.webp",
       "/02_rare/roo-a/09.webp"
-    ]
+    ],
+    "width": 66
   },
   {
     "name": "roo-b",
@@ -1617,7 +1760,8 @@
       "/02_rare/roo-b/07.webp",
       "/02_rare/roo-b/08.webp",
       "/02_rare/roo-b/09.webp"
-    ]
+    ],
+    "width": 67
   },
   {
     "name": "roo-c",
@@ -1632,7 +1776,8 @@
       "/02_rare/roo-c/07.webp",
       "/02_rare/roo-c/08.webp",
       "/02_rare/roo-c/09.webp"
-    ]
+    ],
+    "width": 67
   },
   {
     "name": "sakura_kappa",
@@ -1642,7 +1787,8 @@
       "/02_rare/sakura_kappa/02.webp",
       "/02_rare/sakura_kappa/03.webp",
       "/02_rare/sakura_kappa/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "storm_dragon",
@@ -1652,7 +1798,8 @@
       "/02_rare/storm_dragon/02.webp",
       "/02_rare/storm_dragon/03.webp",
       "/02_rare/storm_dragon/04.webp"
-    ]
+    ],
+    "width": 108
   },
   {
     "name": "stray_dog",
@@ -1664,7 +1811,8 @@
       "/02_rare/stray_dog/04.webp",
       "/02_rare/stray_dog/05.webp",
       "/02_rare/stray_dog/06.webp"
-    ]
+    ],
+    "width": 81
   },
   {
     "name": "stylish_stray_dog",
@@ -1676,7 +1824,8 @@
       "/02_rare/stylish_stray_dog/04.webp",
       "/02_rare/stylish_stray_dog/05.webp",
       "/02_rare/stylish_stray_dog/06.webp"
-    ]
+    ],
+    "width": 87
   },
   {
     "name": "sweet_candy",
@@ -1686,7 +1835,8 @@
       "/02_rare/sweet_candy/02.webp",
       "/02_rare/sweet_candy/03.webp",
       "/02_rare/sweet_candy/04.webp"
-    ]
+    ],
+    "width": 57
   },
   {
     "name": "tiel",
@@ -1698,7 +1848,8 @@
       "/02_rare/tiel/04.webp",
       "/02_rare/tiel/05.webp",
       "/02_rare/tiel/06.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "toasty_devil",
@@ -1708,7 +1859,8 @@
       "/02_rare/toasty_devil/02.webp",
       "/02_rare/toasty_devil/03.webp",
       "/02_rare/toasty_devil/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "toto",
@@ -1718,7 +1870,8 @@
       "/02_rare/toto/02.webp",
       "/02_rare/toto/03.webp",
       "/02_rare/toto/04.webp"
-    ]
+    ],
+    "width": 39
   },
   {
     "name": "arcane_toben",
@@ -1728,7 +1881,8 @@
       "/03_epic/arcane_toben/02.webp",
       "/03_epic/arcane_toben/03.webp",
       "/03_epic/arcane_toben/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "bananabear",
@@ -1738,7 +1892,8 @@
       "/03_epic/bananabear/02.webp",
       "/03_epic/bananabear/03.webp",
       "/03_epic/bananabear/04.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "bitty_bus",
@@ -1748,7 +1903,8 @@
       "/03_epic/bitty_bus/02.webp",
       "/03_epic/bitty_bus/03.webp",
       "/03_epic/bitty_bus/04.webp"
-    ]
+    ],
+    "width": 59
   },
   {
     "name": "bitty_pickup",
@@ -1758,7 +1914,8 @@
       "/03_epic/bitty_pickup/02.webp",
       "/03_epic/bitty_pickup/03.webp",
       "/03_epic/bitty_pickup/04.webp"
-    ]
+    ],
+    "width": 58
   },
   {
     "name": "bitty_taxi",
@@ -1772,7 +1929,8 @@
       "/03_epic/bitty_taxi/06.webp",
       "/03_epic/bitty_taxi/07.webp",
       "/03_epic/bitty_taxi/08.webp"
-    ]
+    ],
+    "width": 50
   },
   {
     "name": "black_bean",
@@ -1788,7 +1946,8 @@
       "/03_epic/black_bean/08.webp",
       "/03_epic/black_bean/09.webp",
       "/03_epic/black_bean/10.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "blue_robo",
@@ -1802,7 +1961,8 @@
       "/03_epic/blue_robo/06.webp",
       "/03_epic/blue_robo/07.webp",
       "/03_epic/blue_robo/08.webp"
-    ]
+    ],
+    "width": 68
   },
   {
     "name": "captain_cafe",
@@ -1816,7 +1976,8 @@
       "/03_epic/captain_cafe/06.webp",
       "/03_epic/captain_cafe/07.webp",
       "/03_epic/captain_cafe/08.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "cookiebear",
@@ -1826,7 +1987,8 @@
       "/03_epic/cookiebear/02.webp",
       "/03_epic/cookiebear/03.webp",
       "/03_epic/cookiebear/04.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "darkling_boar",
@@ -1835,7 +1997,8 @@
       "/03_epic/darkling_boar/01.webp",
       "/03_epic/darkling_boar/02.webp",
       "/03_epic/darkling_boar/03.webp"
-    ]
+    ],
+    "width": 122
   },
   {
     "name": "dawn",
@@ -1847,7 +2010,8 @@
       "/03_epic/dawn/04.webp",
       "/03_epic/dawn/05.webp",
       "/03_epic/dawn/06.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "devil_lux",
@@ -1857,7 +2021,8 @@
       "/03_epic/devil_lux/02.webp",
       "/03_epic/devil_lux/03.webp",
       "/03_epic/devil_lux/04.webp"
-    ]
+    ],
+    "width": 57
   },
   {
     "name": "doodle_cera",
@@ -1867,7 +2032,8 @@
       "/03_epic/doodle_cera/02.webp",
       "/03_epic/doodle_cera/03.webp",
       "/03_epic/doodle_cera/04.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "doodle_rano",
@@ -1877,7 +2043,8 @@
       "/03_epic/doodle_rano/02.webp",
       "/03_epic/doodle_rano/03.webp",
       "/03_epic/doodle_rano/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "doodle_stego",
@@ -1887,7 +2054,8 @@
       "/03_epic/doodle_stego/02.webp",
       "/03_epic/doodle_stego/03.webp",
       "/03_epic/doodle_stego/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "doodleshroom",
@@ -1897,7 +2065,8 @@
       "/03_epic/doodleshroom/02.webp",
       "/03_epic/doodleshroom/03.webp",
       "/03_epic/doodleshroom/04.webp"
-    ]
+    ],
+    "width": 27
   },
   {
     "name": "doodlesnail",
@@ -1907,7 +2076,8 @@
       "/03_epic/doodlesnail/02.webp",
       "/03_epic/doodlesnail/03.webp",
       "/03_epic/doodlesnail/04.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "ebony_lucid",
@@ -1917,7 +2087,8 @@
       "/03_epic/ebony_lucid/02.webp",
       "/03_epic/ebony_lucid/03.webp",
       "/03_epic/ebony_lucid/04.webp"
-    ]
+    ],
+    "width": 72
   },
   {
     "name": "edward",
@@ -1927,7 +2098,8 @@
       "/03_epic/edward/02.webp",
       "/03_epic/edward/03.webp",
       "/03_epic/edward/04.webp"
-    ]
+    ],
+    "width": 21
   },
   {
     "name": "gelimer",
@@ -1937,7 +2109,8 @@
       "/03_epic/gelimer/02.webp",
       "/03_epic/gelimer/03.webp",
       "/03_epic/gelimer/04.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "green_robo",
@@ -1959,7 +2132,8 @@
       "/03_epic/green_robo/14.webp",
       "/03_epic/green_robo/15.webp",
       "/03_epic/green_robo/16.webp"
-    ]
+    ],
+    "width": 68
   },
   {
     "name": "grii_gingerman",
@@ -1971,7 +2145,8 @@
       "/03_epic/grii_gingerman/04.webp",
       "/03_epic/grii_gingerman/05.webp",
       "/03_epic/grii_gingerman/06.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "ill_orchid",
@@ -1981,7 +2156,8 @@
       "/03_epic/ill_orchid/02.webp",
       "/03_epic/ill_orchid/03.webp",
       "/03_epic/ill_orchid/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "invidia",
@@ -1993,7 +2169,8 @@
       "/03_epic/invidia/04.webp",
       "/03_epic/invidia/05.webp",
       "/03_epic/invidia/06.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "kero-chan",
@@ -2007,7 +2184,8 @@
       "/03_epic/kero-chan/06.webp",
       "/03_epic/kero-chan/07.webp",
       "/03_epic/kero-chan/08.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "kyrin",
@@ -2019,7 +2197,8 @@
       "/03_epic/kyrin/04.webp",
       "/03_epic/kyrin/05.webp",
       "/03_epic/kyrin/06.webp"
-    ]
+    ],
+    "width": 88
   },
   {
     "name": "lil_toben",
@@ -2029,7 +2208,8 @@
       "/03_epic/lil_toben/02.webp",
       "/03_epic/lil_toben/03.webp",
       "/03_epic/lil_toben/04.webp"
-    ]
+    ],
+    "width": 29
   },
   {
     "name": "metus",
@@ -2041,7 +2221,8 @@
       "/03_epic/metus/04.webp",
       "/03_epic/metus/05.webp",
       "/03_epic/metus/06.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "mors",
@@ -2053,7 +2234,8 @@
       "/03_epic/mors/04.webp",
       "/03_epic/mors/05.webp",
       "/03_epic/mors/06.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "mw_goddess",
@@ -2063,7 +2245,8 @@
       "/03_epic/mw_goddess/02.webp",
       "/03_epic/mw_goddess/03.webp",
       "/03_epic/mw_goddess/04.webp"
-    ]
+    ],
+    "width": 64
   },
   {
     "name": "onigiri",
@@ -2077,7 +2260,8 @@
       "/03_epic/onigiri/06.webp",
       "/03_epic/onigiri/07.webp",
       "/03_epic/onigiri/08.webp"
-    ]
+    ],
+    "width": 23
   },
   {
     "name": "pac_pinky",
@@ -2093,7 +2277,8 @@
       "/03_epic/pac_pinky/08.webp",
       "/03_epic/pac_pinky/09.webp",
       "/03_epic/pac_pinky/10.webp"
-    ]
+    ],
+    "width": 120
   },
   {
     "name": "pepedoodle",
@@ -2103,7 +2288,8 @@
       "/03_epic/pepedoodle/02.webp",
       "/03_epic/pepedoodle/03.webp",
       "/03_epic/pepedoodle/04.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "powder_lucid",
@@ -2113,7 +2299,8 @@
       "/03_epic/powder_lucid/02.webp",
       "/03_epic/powder_lucid/03.webp",
       "/03_epic/powder_lucid/04.webp"
-    ]
+    ],
+    "width": 72
   },
   {
     "name": "purple_cake",
@@ -2123,7 +2310,8 @@
       "/03_epic/purple_cake/02.webp",
       "/03_epic/purple_cake/03.webp",
       "/03_epic/purple_cake/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "red_robo",
@@ -2137,7 +2325,8 @@
       "/03_epic/red_robo/06.webp",
       "/03_epic/red_robo/07.webp",
       "/03_epic/red_robo/08.webp"
-    ]
+    ],
+    "width": 68
   },
   {
     "name": "red_tube_slime",
@@ -2149,7 +2338,8 @@
       "/03_epic/red_tube_slime/04.webp",
       "/03_epic/red_tube_slime/05.webp",
       "/03_epic/red_tube_slime/06.webp"
-    ]
+    ],
+    "width": 124
   },
   {
     "name": "rose_lucid",
@@ -2159,7 +2349,8 @@
       "/03_epic/rose_lucid/02.webp",
       "/03_epic/rose_lucid/03.webp",
       "/03_epic/rose_lucid/04.webp"
-    ]
+    ],
+    "width": 72
   },
   {
     "name": "ruby",
@@ -2171,7 +2362,8 @@
       "/03_epic/ruby/04.webp",
       "/03_epic/ruby/05.webp",
       "/03_epic/ruby/06.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "sakura_genin",
@@ -2181,7 +2373,8 @@
       "/03_epic/sakura_genin/02.webp",
       "/03_epic/sakura_genin/03.webp",
       "/03_epic/sakura_genin/04.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "selkie_jr.",
@@ -2194,7 +2387,8 @@
       "/03_epic/selkie_jr./05.webp",
       "/03_epic/selkie_jr./06.webp",
       "/03_epic/selkie_jr./07.webp"
-    ]
+    ],
+    "width": 74
   },
   {
     "name": "shiny_toben",
@@ -2204,7 +2398,8 @@
       "/03_epic/shiny_toben/02.webp",
       "/03_epic/shiny_toben/03.webp",
       "/03_epic/shiny_toben/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "silver_meso",
@@ -2218,7 +2413,8 @@
       "/03_epic/silver_meso/06.webp",
       "/03_epic/silver_meso/07.webp",
       "/03_epic/silver_meso/08.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "slimy",
@@ -2232,7 +2428,8 @@
       "/03_epic/slimy/06.webp",
       "/03_epic/slimy/07.webp",
       "/03_epic/slimy/08.webp"
-    ]
+    ],
+    "width": 84
   },
   {
     "name": "strawbear",
@@ -2242,7 +2439,8 @@
       "/03_epic/strawbear/02.webp",
       "/03_epic/strawbear/03.webp",
       "/03_epic/strawbear/04.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "tiny_gollux",
@@ -2252,7 +2450,8 @@
       "/03_epic/tiny_gollux/02.webp",
       "/03_epic/tiny_gollux/03.webp",
       "/03_epic/tiny_gollux/04.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "white_monkey",
@@ -2261,7 +2460,8 @@
       "/03_epic/white_monkey/01.webp",
       "/03_epic/white_monkey/02.webp",
       "/03_epic/white_monkey/03.webp"
-    ]
+    ],
+    "width": 56
   },
   {
     "name": "beachy_mage",
@@ -2271,7 +2471,8 @@
       "/04_legendary/beachy_mage/02.webp",
       "/04_legendary/beachy_mage/03.webp",
       "/04_legendary/beachy_mage/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "burnty",
@@ -2281,7 +2482,8 @@
       "/04_legendary/burnty/02.webp",
       "/04_legendary/burnty/03.webp",
       "/04_legendary/burnty/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "chestnut",
@@ -2291,7 +2493,8 @@
       "/04_legendary/chestnut/02.webp",
       "/04_legendary/chestnut/03.webp",
       "/04_legendary/chestnut/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "coke_mushroom",
@@ -2303,7 +2506,8 @@
       "/04_legendary/coke_mushroom/04.webp",
       "/04_legendary/coke_mushroom/05.webp",
       "/04_legendary/coke_mushroom/06.webp"
-    ]
+    ],
+    "width": 62
   },
   {
     "name": "coke_snail",
@@ -2313,7 +2517,8 @@
       "/04_legendary/coke_snail/02.webp",
       "/04_legendary/coke_snail/03.webp",
       "/04_legendary/coke_snail/04.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "coketump",
@@ -2323,7 +2528,8 @@
       "/04_legendary/coketump/02.webp",
       "/04_legendary/coketump/03.webp",
       "/04_legendary/coketump/04.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "crunchy",
@@ -2333,7 +2539,8 @@
       "/04_legendary/crunchy/02.webp",
       "/04_legendary/crunchy/03.webp",
       "/04_legendary/crunchy/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "cuddle_pup",
@@ -2343,7 +2550,8 @@
       "/04_legendary/cuddle_pup/02.webp",
       "/04_legendary/cuddle_pup/03.webp",
       "/04_legendary/cuddle_pup/04.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "duck_mage",
@@ -2353,7 +2561,8 @@
       "/04_legendary/duck_mage/02.webp",
       "/04_legendary/duck_mage/03.webp",
       "/04_legendary/duck_mage/04.webp"
-    ]
+    ],
+    "width": 36
   },
   {
     "name": "gold_chicken",
@@ -2367,7 +2576,8 @@
       "/04_legendary/gold_chicken/06.webp",
       "/04_legendary/gold_chicken/07.webp",
       "/04_legendary/gold_chicken/08.webp"
-    ]
+    ],
+    "width": 69
   },
   {
     "name": "gold_meso",
@@ -2381,7 +2591,8 @@
       "/04_legendary/gold_meso/06.webp",
       "/04_legendary/gold_meso/07.webp",
       "/04_legendary/gold_meso/08.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "goldeny",
@@ -2391,7 +2602,8 @@
       "/04_legendary/goldeny/02.webp",
       "/04_legendary/goldeny/03.webp",
       "/04_legendary/goldeny/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "happy_bean",
@@ -2401,7 +2613,8 @@
       "/04_legendary/happy_bean/02.webp",
       "/04_legendary/happy_bean/03.webp",
       "/04_legendary/happy_bean/04.webp"
-    ]
+    ],
+    "width": 34
   },
   {
     "name": "ice_knight",
@@ -2411,7 +2624,8 @@
       "/04_legendary/ice_knight/02.webp",
       "/04_legendary/ice_knight/03.webp",
       "/04_legendary/ice_knight/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "leonard",
@@ -2421,7 +2635,8 @@
       "/04_legendary/leonard/02.webp",
       "/04_legendary/leonard/03.webp",
       "/04_legendary/leonard/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "lil_alicia",
@@ -2431,7 +2646,8 @@
       "/04_legendary/lil_alicia/02.webp",
       "/04_legendary/lil_alicia/03.webp",
       "/04_legendary/lil_alicia/04.webp"
-    ]
+    ],
+    "width": 68
   },
   {
     "name": "lil_aran",
@@ -2441,7 +2657,8 @@
       "/04_legendary/lil_aran/02.webp",
       "/04_legendary/lil_aran/03.webp",
       "/04_legendary/lil_aran/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "lil_cygnus",
@@ -2451,7 +2668,8 @@
       "/04_legendary/lil_cygnus/02.webp",
       "/04_legendary/lil_cygnus/03.webp",
       "/04_legendary/lil_cygnus/04.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "lil_damien",
@@ -2461,7 +2679,8 @@
       "/04_legendary/lil_damien/02.webp",
       "/04_legendary/lil_damien/03.webp",
       "/04_legendary/lil_damien/04.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "lil_evan",
@@ -2471,7 +2690,8 @@
       "/04_legendary/lil_evan/02.webp",
       "/04_legendary/lil_evan/03.webp",
       "/04_legendary/lil_evan/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "lil_hilla",
@@ -2481,7 +2701,8 @@
       "/04_legendary/lil_hilla/02.webp",
       "/04_legendary/lil_hilla/03.webp",
       "/04_legendary/lil_hilla/04.webp"
-    ]
+    ],
+    "width": 41
   },
   {
     "name": "lil_lilin",
@@ -2491,7 +2712,8 @@
       "/04_legendary/lil_lilin/02.webp",
       "/04_legendary/lil_lilin/03.webp",
       "/04_legendary/lil_lilin/04.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "lil_luminous",
@@ -2501,7 +2723,8 @@
       "/04_legendary/lil_luminous/02.webp",
       "/04_legendary/lil_luminous/03.webp",
       "/04_legendary/lil_luminous/04.webp"
-    ]
+    ],
+    "width": 39
   },
   {
     "name": "lil_mercedes",
@@ -2511,7 +2734,8 @@
       "/04_legendary/lil_mercedes/02.webp",
       "/04_legendary/lil_mercedes/03.webp",
       "/04_legendary/lil_mercedes/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "lil_neiny",
@@ -2521,7 +2745,8 @@
       "/04_legendary/lil_neiny/02.webp",
       "/04_legendary/lil_neiny/03.webp",
       "/04_legendary/lil_neiny/04.webp"
-    ]
+    ],
+    "width": 32
   },
   {
     "name": "lil_phantom",
@@ -2531,7 +2756,8 @@
       "/04_legendary/lil_phantom/02.webp",
       "/04_legendary/lil_phantom/03.webp",
       "/04_legendary/lil_phantom/04.webp"
-    ]
+    ],
+    "width": 44
   },
   {
     "name": "lil_pony",
@@ -2541,7 +2767,8 @@
       "/04_legendary/lil_pony/02.webp",
       "/04_legendary/lil_pony/03.webp",
       "/04_legendary/lil_pony/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "lil_shade",
@@ -2551,7 +2778,8 @@
       "/04_legendary/lil_shade/02.webp",
       "/04_legendary/lil_shade/03.webp",
       "/04_legendary/lil_shade/04.webp"
-    ]
+    ],
+    "width": 38
   },
   {
     "name": "lil_ursus",
@@ -2569,7 +2797,8 @@
       "/04_legendary/lil_ursus/10.webp",
       "/04_legendary/lil_ursus/11.webp",
       "/04_legendary/lil_ursus/12.webp"
-    ]
+    ],
+    "width": 50
   },
   {
     "name": "lil_zakum",
@@ -2581,7 +2810,8 @@
       "/04_legendary/lil_zakum/04.webp",
       "/04_legendary/lil_zakum/05.webp",
       "/04_legendary/lil_zakum/06.webp"
-    ]
+    ],
+    "width": 72
   },
   {
     "name": "mingo_mage",
@@ -2591,7 +2821,8 @@
       "/04_legendary/mingo_mage/02.webp",
       "/04_legendary/mingo_mage/03.webp",
       "/04_legendary/mingo_mage/04.webp"
-    ]
+    ],
+    "width": 39
   },
   {
     "name": "mir",
@@ -2603,7 +2834,8 @@
       "/04_legendary/mir/04.webp",
       "/04_legendary/mir/05.webp",
       "/04_legendary/mir/06.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "orange",
@@ -2613,7 +2845,8 @@
       "/04_legendary/orange/02.webp",
       "/04_legendary/orange/03.webp",
       "/04_legendary/orange/04.webp"
-    ]
+    ],
+    "width": 23
   },
   {
     "name": "sherbet",
@@ -2623,7 +2856,8 @@
       "/04_legendary/sherbet/02.webp",
       "/04_legendary/sherbet/03.webp",
       "/04_legendary/sherbet/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "so_gong",
@@ -2633,7 +2867,8 @@
       "/04_legendary/so_gong/02.webp",
       "/04_legendary/so_gong/03.webp",
       "/04_legendary/so_gong/04.webp"
-    ]
+    ],
+    "width": 86
   },
   {
     "name": "star_lotus",
@@ -2643,7 +2878,8 @@
       "/04_legendary/star_lotus/02.webp",
       "/04_legendary/star_lotus/03.webp",
       "/04_legendary/star_lotus/04.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "star_orchid",
@@ -2653,7 +2889,8 @@
       "/04_legendary/star_orchid/02.webp",
       "/04_legendary/star_orchid/03.webp",
       "/04_legendary/star_orchid/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "star_phantom",
@@ -2663,7 +2900,8 @@
       "/04_legendary/star_phantom/02.webp",
       "/04_legendary/star_phantom/03.webp",
       "/04_legendary/star_phantom/04.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "verus_hilla",
@@ -2673,7 +2911,8 @@
       "/04_legendary/verus_hilla/02.webp",
       "/04_legendary/verus_hilla/03.webp",
       "/04_legendary/verus_hilla/04.webp"
-    ]
+    ],
+    "width": 65
   },
   {
     "name": "weird_alien",
@@ -2685,7 +2924,8 @@
       "/04_legendary/weird_alien/04.webp",
       "/04_legendary/weird_alien/05.webp",
       "/04_legendary/weird_alien/06.webp"
-    ]
+    ],
+    "width": 42
   },
   {
     "name": "admin_balloon",
@@ -2697,7 +2937,8 @@
       "/05_mythic/admin_balloon/04.webp",
       "/05_mythic/admin_balloon/05.webp",
       "/05_mythic/admin_balloon/06.webp"
-    ]
+    ],
+    "width": 64
   },
   {
     "name": "golden_pig_bar_delivery_man",
@@ -2709,7 +2950,8 @@
       "/05_mythic/golden_pig_bar_delivery_man/04.webp",
       "/05_mythic/golden_pig_bar_delivery_man/05.webp",
       "/05_mythic/golden_pig_bar_delivery_man/06.webp"
-    ]
+    ],
+    "width": 89
   },
   {
     "name": "kino",
@@ -2721,7 +2963,8 @@
       "/05_mythic/kino/04.webp",
       "/05_mythic/kino/05.webp",
       "/05_mythic/kino/06.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "kitty_from_cheese_storage",
@@ -2733,7 +2976,8 @@
       "/05_mythic/kitty_from_cheese_storage/04.webp",
       "/05_mythic/kitty_from_cheese_storage/05.webp",
       "/05_mythic/kitty_from_cheese_storage/06.webp"
-    ]
+    ],
+    "width": 58
   },
   {
     "name": "maple_fireworks",
@@ -2741,7 +2985,8 @@
     "frames": [
       "/05_mythic/maple_fireworks/01.webp",
       "/05_mythic/maple_fireworks/02.webp"
-    ]
+    ],
+    "width": 52
   },
   {
     "name": "psy",
@@ -2753,7 +2998,8 @@
       "/05_mythic/psy/04.webp",
       "/05_mythic/psy/05.webp",
       "/05_mythic/psy/06.webp"
-    ]
+    ],
+    "width": 46
   },
   {
     "name": "stickman",
@@ -2765,7 +3011,8 @@
       "/05_mythic/stickman/04.webp",
       "/05_mythic/stickman/05.webp",
       "/05_mythic/stickman/06.webp"
-    ]
+    ],
+    "width": 69
   },
   {
     "name": "baby_tiger",
@@ -2776,7 +3023,8 @@
       "/06_seasonal/01_january/baby_tiger/02.webp",
       "/06_seasonal/01_january/baby_tiger/03.webp",
       "/06_seasonal/01_january/baby_tiger/04.webp"
-    ]
+    ],
+    "width": 67
   },
   {
     "name": "fluffram",
@@ -2786,7 +3034,8 @@
       "/06_seasonal/04_april/fluffram/01.webp",
       "/06_seasonal/04_april/fluffram/02.webp",
       "/06_seasonal/04_april/fluffram/03.webp"
-    ]
+    ],
+    "width": 66
   },
   {
     "name": "royal_thumpy",
@@ -2796,7 +3045,8 @@
       "/06_seasonal/04_april/royal_thumpy/01.webp",
       "/06_seasonal/04_april/royal_thumpy/02.webp",
       "/06_seasonal/04_april/royal_thumpy/03.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "white_bunny",
@@ -2807,7 +3057,8 @@
       "/06_seasonal/04_april/white_bunny/02.webp",
       "/06_seasonal/04_april/white_bunny/03.webp",
       "/06_seasonal/04_april/white_bunny/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "winterberry",
@@ -2818,7 +3069,8 @@
       "/06_seasonal/04_april/winterberry/02.webp",
       "/06_seasonal/04_april/winterberry/03.webp",
       "/06_seasonal/04_april/winterberry/04.webp"
-    ]
+    ],
+    "width": 33
   },
   {
     "name": "yellow_chick",
@@ -2831,7 +3083,8 @@
       "/06_seasonal/04_april/yellow_chick/04.webp",
       "/06_seasonal/04_april/yellow_chick/05.webp",
       "/06_seasonal/04_april/yellow_chick/06.webp"
-    ]
+    ],
+    "width": 21
   },
   {
     "name": "shark",
@@ -2843,7 +3096,8 @@
       "/06_seasonal/06_june/shark/03.webp",
       "/06_seasonal/06_june/shark/04.webp",
       "/06_seasonal/06_june/shark/05.webp"
-    ]
+    ],
+    "width": 64
   },
   {
     "name": "toucan",
@@ -2854,7 +3108,8 @@
       "/06_seasonal/06_june/toucan/02.webp",
       "/06_seasonal/06_june/toucan/03.webp",
       "/06_seasonal/06_june/toucan/04.webp"
-    ]
+    ],
+    "width": 45
   },
   {
     "name": "duck_floaty",
@@ -2865,7 +3120,8 @@
       "/06_seasonal/07_july/duck_floaty/02.webp",
       "/06_seasonal/07_july/duck_floaty/03.webp",
       "/06_seasonal/07_july/duck_floaty/04.webp"
-    ]
+    ],
+    "width": 26
   },
   {
     "name": "pinky-mingo",
@@ -2878,7 +3134,8 @@
       "/06_seasonal/07_july/pinky-mingo/04.webp",
       "/06_seasonal/07_july/pinky-mingo/05.webp",
       "/06_seasonal/07_july/pinky-mingo/06.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "shocky-mingo",
@@ -2891,7 +3148,8 @@
       "/06_seasonal/07_july/shocky-mingo/04.webp",
       "/06_seasonal/07_july/shocky-mingo/05.webp",
       "/06_seasonal/07_july/shocky-mingo/06.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "smarty-mingo",
@@ -2904,7 +3162,8 @@
       "/06_seasonal/07_july/smarty-mingo/04.webp",
       "/06_seasonal/07_july/smarty-mingo/05.webp",
       "/06_seasonal/07_july/smarty-mingo/06.webp"
-    ]
+    ],
+    "width": 35
   },
   {
     "name": "cream_bean",
@@ -2915,7 +3174,8 @@
       "/06_seasonal/08_august/cream_bean/02.webp",
       "/06_seasonal/08_august/cream_bean/03.webp",
       "/06_seasonal/08_august/cream_bean/04.webp"
-    ]
+    ],
+    "width": 57
   },
   {
     "name": "cream_slime",
@@ -2926,7 +3186,8 @@
       "/06_seasonal/08_august/cream_slime/02.webp",
       "/06_seasonal/08_august/cream_slime/03.webp",
       "/06_seasonal/08_august/cream_slime/04.webp"
-    ]
+    ],
+    "width": 53
   },
   {
     "name": "cream_yeti",
@@ -2937,7 +3198,8 @@
       "/06_seasonal/08_august/cream_yeti/02.webp",
       "/06_seasonal/08_august/cream_yeti/03.webp",
       "/06_seasonal/08_august/cream_yeti/04.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "black_cat",
@@ -2950,7 +3212,8 @@
       "/06_seasonal/10_october/black_cat/04.webp",
       "/06_seasonal/10_october/black_cat/05.webp",
       "/06_seasonal/10_october/black_cat/06.webp"
-    ]
+    ],
+    "width": 54
   },
   {
     "name": "blue_poppet",
@@ -2961,7 +3224,8 @@
       "/06_seasonal/10_october/blue_poppet/02.webp",
       "/06_seasonal/10_october/blue_poppet/03.webp",
       "/06_seasonal/10_october/blue_poppet/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "dazed_ghost",
@@ -2976,7 +3240,8 @@
       "/06_seasonal/10_october/dazed_ghost/06.webp",
       "/06_seasonal/10_october/dazed_ghost/07.webp",
       "/06_seasonal/10_october/dazed_ghost/08.webp"
-    ]
+    ],
+    "width": 25
   },
   {
     "name": "elderwraith",
@@ -2987,7 +3252,8 @@
       "/06_seasonal/10_october/elderwraith/02.webp",
       "/06_seasonal/10_october/elderwraith/03.webp",
       "/06_seasonal/10_october/elderwraith/04.webp"
-    ]
+    ],
+    "width": 78
   },
   {
     "name": "frankie",
@@ -2998,7 +3264,8 @@
       "/06_seasonal/10_october/frankie/02.webp",
       "/06_seasonal/10_october/frankie/03.webp",
       "/06_seasonal/10_october/frankie/04.webp"
-    ]
+    ],
+    "width": 54
   },
   {
     "name": "happy_ghost",
@@ -3013,7 +3280,8 @@
       "/06_seasonal/10_october/happy_ghost/06.webp",
       "/06_seasonal/10_october/happy_ghost/07.webp",
       "/06_seasonal/10_october/happy_ghost/08.webp"
-    ]
+    ],
+    "width": 25
   },
   {
     "name": "jr._reaper",
@@ -3024,7 +3292,8 @@
       "/06_seasonal/10_october/jr._reaper/02.webp",
       "/06_seasonal/10_october/jr._reaper/03.webp",
       "/06_seasonal/10_october/jr._reaper/04.webp"
-    ]
+    ],
+    "width": 40
   },
   {
     "name": "olivia",
@@ -3041,7 +3310,8 @@
       "/06_seasonal/10_october/olivia/08.webp",
       "/06_seasonal/10_october/olivia/09.webp",
       "/06_seasonal/10_october/olivia/10.webp"
-    ]
+    ],
+    "width": 117
   },
   {
     "name": "peach_poppet",
@@ -3052,7 +3322,8 @@
       "/06_seasonal/10_october/peach_poppet/02.webp",
       "/06_seasonal/10_october/peach_poppet/03.webp",
       "/06_seasonal/10_october/peach_poppet/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "pumpkin_jack",
@@ -3065,7 +3336,8 @@
       "/06_seasonal/10_october/pumpkin_jack/04.webp",
       "/06_seasonal/10_october/pumpkin_jack/05.webp",
       "/06_seasonal/10_october/pumpkin_jack/06.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "pumpkin_mack",
@@ -3078,7 +3350,8 @@
       "/06_seasonal/10_october/pumpkin_mack/04.webp",
       "/06_seasonal/10_october/pumpkin_mack/05.webp",
       "/06_seasonal/10_october/pumpkin_mack/06.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "pumpkin_zack",
@@ -3091,7 +3364,8 @@
       "/06_seasonal/10_october/pumpkin_zack/04.webp",
       "/06_seasonal/10_october/pumpkin_zack/05.webp",
       "/06_seasonal/10_october/pumpkin_zack/06.webp"
-    ]
+    ],
+    "width": 47
   },
   {
     "name": "pur-poppet",
@@ -3102,7 +3376,8 @@
       "/06_seasonal/10_october/pur-poppet/02.webp",
       "/06_seasonal/10_october/pur-poppet/03.webp",
       "/06_seasonal/10_october/pur-poppet/04.webp"
-    ]
+    ],
+    "width": 31
   },
   {
     "name": "sassy_ghost",
@@ -3117,7 +3392,8 @@
       "/06_seasonal/10_october/sassy_ghost/06.webp",
       "/06_seasonal/10_october/sassy_ghost/07.webp",
       "/06_seasonal/10_october/sassy_ghost/08.webp"
-    ]
+    ],
+    "width": 25
   },
   {
     "name": "twisted_jester",
@@ -3128,7 +3404,8 @@
       "/06_seasonal/10_october/twisted_jester/02.webp",
       "/06_seasonal/10_october/twisted_jester/03.webp",
       "/06_seasonal/10_october/twisted_jester/04.webp"
-    ]
+    ],
+    "width": 84
   },
   {
     "name": "turkey",
@@ -3139,7 +3416,8 @@
       "/06_seasonal/11_november/turkey/02.webp",
       "/06_seasonal/11_november/turkey/03.webp",
       "/06_seasonal/11_november/turkey/04.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "blue_pengy",
@@ -3150,7 +3428,8 @@
       "/06_seasonal/12_december/blue_pengy/02.webp",
       "/06_seasonal/12_december/blue_pengy/03.webp",
       "/06_seasonal/12_december/blue_pengy/04.webp"
-    ]
+    ],
+    "width": 32
   },
   {
     "name": "deluxe_candle",
@@ -3163,7 +3442,8 @@
       "/06_seasonal/12_december/deluxe_candle/04.webp",
       "/06_seasonal/12_december/deluxe_candle/05.webp",
       "/06_seasonal/12_december/deluxe_candle/06.webp"
-    ]
+    ],
+    "width": 48
   },
   {
     "name": "gingerbready",
@@ -3174,7 +3454,8 @@
       "/06_seasonal/12_december/gingerbready/02.webp",
       "/06_seasonal/12_december/gingerbready/03.webp",
       "/06_seasonal/12_december/gingerbready/04.webp"
-    ]
+    ],
+    "width": 49
   },
   {
     "name": "kid_snowman",
@@ -3185,7 +3466,8 @@
       "/06_seasonal/12_december/kid_snowman/02.webp",
       "/06_seasonal/12_december/kid_snowman/03.webp",
       "/06_seasonal/12_december/kid_snowman/04.webp"
-    ]
+    ],
+    "width": 106
   },
   {
     "name": "little_snowman",
@@ -3196,7 +3478,8 @@
       "/06_seasonal/12_december/little_snowman/02.webp",
       "/06_seasonal/12_december/little_snowman/03.webp",
       "/06_seasonal/12_december/little_snowman/04.webp"
-    ]
+    ],
+    "width": 70
   },
   {
     "name": "purple_pengy",
@@ -3207,7 +3490,8 @@
       "/06_seasonal/12_december/purple_pengy/02.webp",
       "/06_seasonal/12_december/purple_pengy/03.webp",
       "/06_seasonal/12_december/purple_pengy/04.webp"
-    ]
+    ],
+    "width": 32
   },
   {
     "name": "rudolph",
@@ -3217,7 +3501,8 @@
       "/06_seasonal/12_december/rudolph/01.webp",
       "/06_seasonal/12_december/rudolph/02.webp",
       "/06_seasonal/12_december/rudolph/03.webp"
-    ]
+    ],
+    "width": 37
   },
   {
     "name": "snowman",
@@ -3231,7 +3516,8 @@
       "/06_seasonal/12_december/snowman/05.webp",
       "/06_seasonal/12_december/snowman/06.webp",
       "/06_seasonal/12_december/snowman/07.webp"
-    ]
+    ],
+    "width": 43
   },
   {
     "name": "soldier_chun",
@@ -3242,7 +3528,8 @@
       "/06_seasonal/12_december/soldier_chun/02.webp",
       "/06_seasonal/12_december/soldier_chun/03.webp",
       "/06_seasonal/12_december/soldier_chun/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "soldier_hong",
@@ -3253,7 +3540,8 @@
       "/06_seasonal/12_december/soldier_hong/02.webp",
       "/06_seasonal/12_december/soldier_hong/03.webp",
       "/06_seasonal/12_december/soldier_hong/04.webp"
-    ]
+    ],
+    "width": 28
   },
   {
     "name": "angry_strawberry_cake",
@@ -3265,7 +3553,8 @@
       "/06_seasonal/13_birthday/angry_strawberry_cake/03.webp",
       "/06_seasonal/13_birthday/angry_strawberry_cake/04.webp",
       "/06_seasonal/13_birthday/angry_strawberry_cake/05.webp"
-    ]
+    ],
+    "width": 86
   },
   {
     "name": "birthday_candle",
@@ -3275,7 +3564,8 @@
       "/06_seasonal/13_birthday/birthday_candle/01.webp",
       "/06_seasonal/13_birthday/birthday_candle/02.webp",
       "/06_seasonal/13_birthday/birthday_candle/03.webp"
-    ]
+    ],
+    "width": 51
   },
   {
     "name": "chocolate_cake",
@@ -3288,7 +3578,8 @@
       "/06_seasonal/13_birthday/chocolate_cake/04.webp",
       "/06_seasonal/13_birthday/chocolate_cake/05.webp",
       "/06_seasonal/13_birthday/chocolate_cake/06.webp"
-    ]
+    ],
+    "width": 91
   },
   {
     "name": "maple_bday_cake",
@@ -3300,6 +3591,7 @@
       "/06_seasonal/13_birthday/maple_bday_cake/03.webp",
       "/06_seasonal/13_birthday/maple_bday_cake/04.webp",
       "/06_seasonal/13_birthday/maple_bday_cake/05.webp"
-    ]
+    ],
+    "width": 86
   }
 ]

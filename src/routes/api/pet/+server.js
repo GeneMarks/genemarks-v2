@@ -1,6 +1,5 @@
 import { json } from '@sveltejs/kit';
 import pets from '$lib/server/pets.json';
-import probe from 'probe-image-size';
 
 
 const birthday = '12/09';
@@ -35,50 +34,37 @@ const randPet = (key, val) => {
     return filteredPets[rand];
 };
 
-const getMaxWidth = async (frames, url) => {
-    const widths = await Promise.all(
-        frames.map(frame => probe(`${url.host}/images/pets${frame}`))
-    );
 
-    return Math.max(...widths.map(meta => meta.width));
-};
-
-
-export const GET = async ({ url }) => {
+export const GET = async () => {
     
-    const getPet = async () => {
-        try {
-            const date = new Date();
-            const formattedDate = date.toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
-            const season = date.toLocaleString('en-US', { month: 'long' }).toLowerCase();
-            const birthdayDate = new Date(birthday).toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
+    const getPet = () => {
+        const date = new Date();
+        const formattedDate = date.toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
+        const season = date.toLocaleString('en-US', { month: 'long' }).toLowerCase();
+        const birthdayDate = new Date(birthday).toLocaleString('en-US', { month: '2-digit', day: '2-digit' });
             
-            const chosenRarity = roulette(rarityOdds);
-            const seasonalPets = pets.filter(item => item.season === season);
+        const chosenRarity = roulette(rarityOdds);
+        const seasonalPets = pets.filter(item => item.season === season);
 
-            let pet;
+        let pet;
 
-            if (formattedDate === birthdayDate) {
-                pet = randPet('season', 'birthday');
-            } else if (seasonalPets.length > 0) {
-                const petType = roulette(typeOdds);
-                const randKey = petType === 'normal' ? 'rarity' : 'season';
-                const randVal = petType === 'normal' ? chosenRarity : season;
+        if (formattedDate === birthdayDate) {
+            pet = randPet('season', 'birthday');
+        } else if (seasonalPets.length > 0) {
+            const petType = roulette(typeOdds);
+            const randKey = petType === 'normal' ? 'rarity' : 'season';
+            const randVal = petType === 'normal' ? chosenRarity : season;
 
-                pet = randPet(randKey, randVal);
-            } else {
-                pet = randPet('rarity', chosenRarity);
-            }
-
-
-            return {
-                ...pet,
-                frames: pet.frames.map(frame => `/images/pets${frame}`),
-                width: await getMaxWidth(pet.frames, url)
-            };
-        } catch (err) {
-            console.log(err);
+            pet = randPet(randKey, randVal);
+        } else {
+            pet = randPet('rarity', chosenRarity);
         }
+
+
+        return {
+            ...pet,
+            frames: pet.frames.map(frame => `/images/pets${frame}`)
+        };
     };
 
     const response = await getPet();
