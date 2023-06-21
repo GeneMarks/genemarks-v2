@@ -37,7 +37,7 @@
         let frameIndex = 0;
 
         setInterval(() => {
-            petImg = `${hostURL}/${frames[frameIndex]}`;
+            petImg = `${hostURL}${frames[frameIndex]}`;
             frameIndex = (frameIndex + 1) % frames.length;
         }, playSpeed);
     };
@@ -98,7 +98,7 @@
                 z-index: 99;">
             
             <img
-                src="{petImg ?? `${hostURL}/${petData.frames[0]}`}"
+                src="{petImg ?? `${hostURL}${petData.frames[0]}`}"
                 alt="{petData.name}" />
 
         </div>
