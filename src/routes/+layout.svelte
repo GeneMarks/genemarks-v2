@@ -38,6 +38,6 @@
 
 <Footer />
 
-<ScrollToTop />
 <SearchModal />
+<ScrollToTop />
 <Toaster />

@@ -1,5 +1,6 @@
 <script>
     import FooterLogo from '$lib/components/FooterLogo.svelte';
+    import Pet from '$lib/components/Pet.svelte';
 </script>
 
 <footer class="mx-6 mt-32">
@@ -15,4 +16,6 @@
         </nav>
         <aside class="text-primary-100/60">Gene Marks &copy; {`${new Date().getFullYear()}`}.</aside>
     </div>
+
+    <Pet />
 </footer>

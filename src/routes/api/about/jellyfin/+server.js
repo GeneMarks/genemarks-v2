@@ -1,4 +1,4 @@
-import { error, json } from '@sveltejs/kit';
+import { json } from '@sveltejs/kit';
 import { serializeNonPOJOs, getPocketImageURL } from '$lib/server/utils';
 import dayjs from '$lib/server/day';
 import {
