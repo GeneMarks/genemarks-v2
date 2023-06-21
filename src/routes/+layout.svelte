@@ -5,6 +5,7 @@
     import Footer from '$lib/components/Footer.svelte';
     import SearchModal from '$lib/components/SearchModal.svelte';
     import ScrollToTop from '$lib/components/ScrollToTop.svelte';
+    import HolidaySnow from '$lib/components/HolidaySnow.svelte';
     import { Toaster } from 'svelte-french-toast';
     import NProgress from 'nprogress';
     import '../styles/app.postcss';
@@ -41,3 +42,4 @@
 <SearchModal />
 <ScrollToTop />
 <Toaster />
+<HolidaySnow />
