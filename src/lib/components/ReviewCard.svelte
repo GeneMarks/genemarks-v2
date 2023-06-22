@@ -4,18 +4,40 @@
     export let review;
 
 
-    let previewVisible;
+    let previewVisible = false;
+    let isLoaded = false;
     let previewTimeout;
     
-    const showPreview = (bool) => {
+    const loadImage = (src) => new Promise((resolve, reject) => {
+        const img = new Image();
+
+        img.onload = () => {
+            isLoaded = true;
+            resolve(img);
+        };
+        img.onerror = reject;
+
+        img.src = src;
+    });
+
+    const loadPreview = async () => {
+        if (!isLoaded) {
+            await loadImage(review.animated_preview);
+        }
+        previewVisible = true;
+    };
+
+    const hidePreview = () => previewVisible = false;
+    
+    const showPreview = async (bool) => {
+        if (!review.animated_preview) return;
+
         clearTimeout(previewTimeout);
     
         if (bool) {
-            previewTimeout = setTimeout(() => {
-                previewVisible = true;
-            }, 400);
+            previewTimeout = setTimeout(loadPreview, 400);
         } else {
-            previewVisible = false;
+            hidePreview();
         }
     };
 </script>
@@ -29,12 +51,23 @@
             on:mouseenter="{() => showPreview(true)}"
             on:mouseleave="{() => showPreview(false)}"
             class="relative">
-            <img src="{review.thumb}" alt="{review.title}" loading="lazy" class="w-full aspect-[25/14] bg-primary-600">
-            {#if review.animated_preview && previewVisible}
+            <img
+                src="{review.thumb}"
+                alt="{review.title}"
+                loading="lazy"
+                class="w-full aspect-[25/14] bg-primary-600">
+            
+            {#if previewVisible}
                 <div
                     transition:fade|local={{ duration: 250 }}
-                    style="background-image: url({review.animated_preview});"
-                    class="absolute top-0 w-full aspect-[25/14] bg-cover bg-center bg-secondary-200 bg-blend-multiply"></div>
+                    class="absolute top-0">
+                    <div class="relative after:absolute after:inset-0 after:bg-secondary-200 after:mix-blend-multiply">
+                        <img
+                            src="{review.animated_preview}"
+                            alt="{review.title}"
+                            class="w-full aspect-[25/14] object-cover object-center" />
+                    </div>
+                </div>
             {/if}
         </div>
     </a>
