@@ -68,7 +68,7 @@ export const POST = async ({ locals }) => {
             formData.append('plays', jfItem.UserData.PlayCount);
             formData.append('title', jfItem.Name);
             formData.append('datetime', jfItem.UserData.LastPlayedDate);
-            formData.append('series', jfItem.SeriesName ?? null);
+            formData.append('series', jfItem.SeriesName ?? '');
 
             const thumb = await fetchImg(jfItem);
             formData.append('thumb', thumb ?? null)
