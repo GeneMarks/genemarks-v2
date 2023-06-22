@@ -1,11 +1,11 @@
-import { POCKETBASE_PUBLIC_URL } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 
 export const serializeNonPOJOs = (obj) => {
     return structuredClone(obj);
 };
 
 export const getPocketImageURL = (collectionId, recordId, fileName, size='0x0') => {
-    return `${POCKETBASE_PUBLIC_URL}/api/files/${collectionId}/${recordId}/${fileName}?thumb=${size}`;
+    return `${env.POCKETBASE_PUBLIC_URL}/api/files/${collectionId}/${recordId}/${fileName}?thumb=${size}`;
 };
 
 export const shuffle = (arr) => {

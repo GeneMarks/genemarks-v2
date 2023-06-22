@@ -2,15 +2,15 @@
     import { searchActive } from '../../stores/search';
     import { goto } from '$app/navigation';
     import { browser } from '$app/environment';
-    import { PUBLIC_MEILISEARCH_URL, PUBLIC_MEILISEARCH_API_KEY } from '$env/static/public';
+    import { env } from '$env/dynamic/public';
     import { MeiliSearch } from 'meilisearch';
     import { fly } from 'svelte/transition';
     import { Icon, XMark } from 'svelte-hero-icons';
 
 
     const ms = new MeiliSearch({
-        host: PUBLIC_MEILISEARCH_URL,
-        apiKey: PUBLIC_MEILISEARCH_API_KEY
+        host: env.PUBLIC_MEILISEARCH_URL,
+        apiKey: env.PUBLIC_MEILISEARCH_API_KEY
     });
 
     let response;
