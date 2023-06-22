@@ -1,6 +1,6 @@
 <script>
     import { navigating, page } from '$app/stores';
-	import Nav from '$lib/components/Nav.svelte';
+    import Nav from '$lib/components/Nav.svelte';
     import Header from '$lib/components/Header.svelte';
     import Footer from '$lib/components/Footer.svelte';
     import SearchModal from '$lib/components/SearchModal.svelte';

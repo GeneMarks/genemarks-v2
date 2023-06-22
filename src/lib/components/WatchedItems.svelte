@@ -1,6 +1,6 @@
 <script>
     import { fly } from 'svelte/transition';
-	import Loading from "$lib/components/Loading.svelte";
+    import Loading from "$lib/components/Loading.svelte";
 
     export let watchedItems;
     export let watchedLoading;

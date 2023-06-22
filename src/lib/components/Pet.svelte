@@ -1,5 +1,5 @@
 <script>
-	import { onMount, tick } from 'svelte';
+    import { onMount, tick } from 'svelte';
     import { page } from '$app/stores';
     import { fade } from 'svelte/transition';
 

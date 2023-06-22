@@ -1,6 +1,6 @@
 <script>
     import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
+    import { goto } from '$app/navigation';
     import { randomToast } from '$lib/toast';
 
 

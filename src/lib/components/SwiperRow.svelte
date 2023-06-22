@@ -1,6 +1,6 @@
 <script>
     import ReviewCard from '$lib/components/ReviewCard.svelte';
-	import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
 
     export let reviews;
     export let name;

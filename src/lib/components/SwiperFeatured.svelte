@@ -1,6 +1,6 @@
 <script>
     import FeaturedCard from '$lib/components/FeaturedCard.svelte';
-	import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
 
     export let reviews;
     export let name;
