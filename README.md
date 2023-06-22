@@ -18,4 +18,4 @@ Hobbyist blog and media review site.
 
 ## Files not included
 - Site content
-- Footer pet images (<small>Scroll to the bottom to get a random pet :P</small>)
+- Footer pet images <sub>Scroll to the bottom to get a random pet :P</sub>
