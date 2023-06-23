@@ -86,6 +86,11 @@
         }
     };
 
+    const handleInputKeys = (e) => {
+        if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+            e.preventDefault();
+        }
+    };
 
     let input;
     
@@ -124,11 +129,12 @@
         aria-label="search box"
         class="fixed inset-0 z-[105] flex flex-col items-center px-4 bg-[#0a0a0ae6]">
 
-        <div class="z-[115] flex flex-col fixed inset-0 bg-primary-300 rounded-md drop-shadow-2xl md:relative md:inset-auto md:mt-20 md:px-10 md:pt-10 md:max-w-full md:w-[60rem]">
+        <div class="z-[115] flex flex-col fixed inset-0 bg-primary-300 rounded-md drop-shadow-2xl md:relative md:inset-auto md:mt-12 md:px-10 md:pt-10 md:max-w-full md:w-[60rem]">
             <div class="relative">
                 <input
                     bind:this={input}
                     on:input={search}
+                    on:keydown={handleInputKeys}
                     name="search"
                     type="text"
                     placeholder="Search"
@@ -144,9 +150,9 @@
                 </div>
             </div>
 
-            <div class="h-full overflow-y-auto scrollbar-thin scrollbar-thumb-primary-200 md:max-h-[70vh]">
+            <div class="h-full overflow-y-auto scrollbar-thin scrollbar-thumb-primary-200 md:max-h-[68vh]">
                 {#if !hits.length}
-                    <p class="mt-4 mb-14 text-center text-sm">
+                    <p class="mt-4 mb-20 text-center text-sm">
                         No results yet.
                     </p>
                 {/if}
@@ -187,6 +193,22 @@
                             </div>
                         </a>
                     {/each}
+                </div>
+            </div>
+
+            <div class="hidden gap-5 py-4 md:flex">
+                <div class="flex items-center gap-2 leading-none">
+                    <span class="p-1.5 rounded-md bg-primary-200 text-xs">↩</span>
+                    <span class="text-sm">select</span>
+                </div>
+                <div class="flex items-center gap-2 leading-none">
+                    <span class="p-1.5 rounded-md bg-primary-200 text-xs">↑</span>
+                    <span class="p-1.5 rounded-md bg-primary-200 text-xs">↓</span>
+                    <span class="text-sm">navigate</span>
+                </div>
+                <div class="flex items-center gap-2 leading-none">
+                    <span class="p-1.5 rounded-md bg-primary-200 text-xs">esc</span>
+                    <span class="text-sm">close</span>
                 </div>
             </div>
         </div>
