@@ -36,8 +36,11 @@
     });
 </script>
 
-<div class="{name} relative">
-    <swiper-container init="false" class:invisible={!swiperLoaded}>
+<div
+    class="{name} relative transition-opacity duration-150 ease-in"
+    class:opacity-0={!swiperLoaded}>
+
+    <swiper-container init="false">
         {#each reviews as review}
             <swiper-slide class="swiper-slide relative flex flex-col bg-primary-400">
                 <FeaturedCard {review} />

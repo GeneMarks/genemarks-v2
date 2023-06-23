@@ -43,8 +43,11 @@
     });
 </script>
 
-<div class="{name} relative mt-6">
-    <swiper-container init="false" class:invisible={!swiperLoaded}>
+<div 
+    class="{name} relative mt-6 transition-opacity duration-150 ease-in"
+    class:opacity-0={!swiperLoaded}>
+    
+    <swiper-container init="false">
         {#each reviews as review}
             <swiper-slide>
                 <ReviewCard {review} />
