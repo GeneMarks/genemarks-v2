@@ -51,7 +51,7 @@
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <button
     on:click={handleLike}
-    use:tip={{ content: `${likes.toLocaleString()} Likes` }}
+    use:tip={{ content: `${likes.toLocaleString()} Like${likes !== 1 ? 's' : ''}` }}
     disabled={liked||liking}
     class="flex gap-1 items-center text-sm px-6 py-2.5 rounded-md
     {liked ? 'bg-green-800 text-green-400' : 'bg-primary-300 text-green-500 hover:bg-primary-200'}">
