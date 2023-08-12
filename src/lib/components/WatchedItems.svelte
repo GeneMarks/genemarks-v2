@@ -21,7 +21,7 @@
         {#each watchedItems as item}
             <li class="flex gap-4 p-5 even:bg-primary-400 odd:bg-primary-600 sm:p-8">
                 <div>
-                    <img src="{item?.thumb}" alt="{item?.title}" class="aspect-video object-cover rounded-sm max-w-[6rem] sm:max-w-[12rem]" />
+                    <img src="{item?.thumb}" alt="{item?.title}" onerror="this.style.display='none'" class="aspect-video object-cover rounded-sm max-w-[6rem] sm:max-w-[12rem]" />
                 </div>
                 <div>
                     <h3 class="line-clamp-2">{item?.title}</h3>
