@@ -36,7 +36,7 @@
                 
                 <ul class="flex flex-wrap gap-2 justify-center mt-6 text-sm text-secondary-200 md:justify-start">
                     <li><a target="_blank" href="https://www.linkedin.com/in/eugenemarks" class="inline-block px-3 py-1 rounded-full bg-primary-200 hover:text-white">Linkedin</a></li>
-                    <li><a target="_blank" href="https://vimeo.com/genemarks" class="inline-block px-3 py-1 rounded-full bg-primary-200 hover:text-white">Vimeo</a></li>
+                    <li><a target="_blank" href="https://behance.net/genemarks" class="inline-block px-3 py-1 rounded-full bg-primary-200 hover:text-white">Behance</a></li>
                     <li><a target="_blank" href="https://github.com/GeneMarks" class="inline-block px-3 py-1 rounded-full bg-primary-200 hover:text-white">GitHub</a></li>
                     <li><a href="mailto:gene_marks@outlook.com" class="inline-block px-3 py-1 rounded-full bg-primary-200 hover:text-white">Email</a></li>
                 </ul>
