@@ -1,5 +1,3 @@
-# [![logo](https://github.com/GeneMarks/genemarks-v2/assets/68919132/54f89ac2-81ac-4611-8e86-a7a820248c1d)](https://genemarks.net)
-
 Hobbyist blog and media review site. 🍿
 
 
